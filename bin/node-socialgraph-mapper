@@ -1,0 +1,130 @@
+#!/usr/bin/env node
+
+var app      = require('http').createServer(handler),
+    fs       = require('fs'),
+    mapper  = require('../lib/mapper.js');
+
+function handler(req, res) {
+
+  // get the query object
+  var query = require('url').parse(req.url, true).query;
+
+
+  // if the root is requested then demo form.
+  if (req.url === '/') {
+    displayPage('/../static/index.html');
+  }else if (req.url === '/compress-maps/') {
+    compressMaps();
+  }else{
+    
+    var options = {};
+    if(query.format)
+      options.format = query.format;
+
+
+    mapper.parseUrls(query.urls, options, function(data){
+      res.writeHead(200, {'Content-Type': 'application/json; charset=utf-8'});
+
+      if (query.callback) {
+        res.end(query.callback + '(' + JSON.stringify(data) + ')');
+      } else {
+        res.end(JSON.stringify(data));
+      }
+    });
+  }
+
+
+  function displayPage(path){
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    fs.readFile(__dirname + path, function (err, page) {
+      if (err) throw err;
+      res.end(page);
+    });
+    return;
+  };
+
+
+
+// function compressMaps(){
+//   var fs=require('fs'),
+//       EventEmitter=require('events').EventEmitter,
+//       filesEE=new EventEmitter(),
+//       myfiles=[];
+
+//   // this event will be called when all files have been added to myfiles
+//   filesEE.on('files_ready',function(){
+//     console.dir(myfiles);
+//   });
+
+//   // read all files from current directory
+//   fs.readdir('.',function(err,files){
+//     if(err) throw err;
+//     files.forEach(function(file){
+//       myfiles.push(file);
+//     });
+//     filesEE.emit('files_ready'); // trigger files_ready event
+//   });
+
+// }
+
+
+
+
+
+
+  function compressMaps(){
+    
+    var fileNames = [];
+    var parts = [];
+
+    EventEmitter = require('events').EventEmitter,
+    filesEvt = new EventEmitter(),
+
+    filesEvt.on('files_ready',function(){
+      console.log('done');
+      writeMapData('[' + parts.join() + ']');
+    });
+
+    fs.readdir( __dirname + '/../maps/', function( err, files) {
+      files.forEach(function(file){
+
+        console.log('File: ' + file);
+        if(file.indexOf('.js') > -1 || file.indexOf('.json') > -1){
+          fileNames.push(__dirname + '/../maps/' + file)
+          var data = fs.readFileSync(__dirname + '/../maps/' + file, 'utf8') 
+          parts.push(data);
+          console.log(data);
+        }
+        console.log('------------------------');
+        
+      });
+      filesEvt.emit('files_ready');
+    });
+  };
+
+
+  function writeMapData(content){
+    var compressor = require('node-minify');
+    fs.writeFile(__dirname + '/../lib/mapdata.json', content, 'utf8', function(err) {
+        if(err) {
+          console.log(err);
+        } else {
+          console.log('The file: mapdata.json was saved');
+
+          new compressor.minify({
+              type: 'uglifyjs',
+              fileIn: __dirname + '/../lib/mapdata.json',
+              fileOut: __dirname + '/../lib/mapdata.min.json',
+              callback: function(err){
+                  console.log(err);
+              }
+          });
+        }
+      }); 
+  }
+
+
+}
+
+app.listen(8888, 'localhost');
+console.log('App @ http://localhost:8888');
