@@ -175,7 +175,7 @@
         "mediatype": "Html"
     },{
         "urltemplate": "http://dribbble.com/{username}/shots.rss",
-        "schema": "Activity",
+        "schema": "Images",
         "contenttype": "Rss",
         "mediatype": "Rss"
     }],
@@ -359,6 +359,16 @@
         "mediatype": "Html"
     }, {
         "urltemplate": "http://plus.google.com/u/0/{userid}/posts",
+        "schema": "None",
+        "contenttype": "None",
+        "mediatype": "Html"
+    }, {
+        "urltemplate": "http://plus.google.com/u/0/{userid}/buzz",
+        "schema": "None",
+        "contenttype": "None",
+        "mediatype": "Html"
+    }, {
+        "urltemplate": "http://plus.google.com/u/0/{userid}/about",
         "schema": "None",
         "contenttype": "None",
         "mediatype": "Html"

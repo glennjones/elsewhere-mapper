@@ -13,7 +13,7 @@
         "mediatype": "Html"
     },{
         "urltemplate": "http://dribbble.com/{username}/shots.rss",
-        "schema": "Activity",
+        "schema": "Images",
         "contenttype": "Rss",
         "mediatype": "Rss"
     }],

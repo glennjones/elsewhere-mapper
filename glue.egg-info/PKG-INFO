@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: glue
+Version: 0.2.6.1
+Summary: Glue is a simple command line tool to generate CSS sprites.
+Home-page: http://github.com/jorgebastida/glue
+Author: Jorge Bastida
+Author-email: me@jorgebastida.com
+License: BSD
+Description: Glue is a simple command line tool to generate CSS sprites using any kind of source images like PNG, JPEG or GIF. Glue will generate a unique PNG file containing every source image and a CSS file including the necessary CSS classes to use the sprite.
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities

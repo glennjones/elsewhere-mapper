@@ -26,6 +26,16 @@
         "schema": "None",
         "contenttype": "None",
         "mediatype": "Html"
+    }, {
+        "urltemplate": "http://plus.google.com/u/0/{userid}/buzz",
+        "schema": "None",
+        "contenttype": "None",
+        "mediatype": "Html"
+    }, {
+        "urltemplate": "http://plus.google.com/u/0/{userid}/about",
+        "schema": "None",
+        "contenttype": "None",
+        "mediatype": "Html"
     }],
     "www": false
  }

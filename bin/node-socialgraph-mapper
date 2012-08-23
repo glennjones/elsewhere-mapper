@@ -9,18 +9,36 @@ function handler(req, res) {
   // get the query object
   var query = require('url').parse(req.url, true).query;
 
+  switch(req.url) {
+    case '/':
+      displayPage('/../static/index.html', 'text/html');
+      break;
+    case '/compress-maps/':
+      compressMaps();
+      break;
+    case '/unit-tests/':
+      displayPage('/../static/unit-tests.html', 'text/html');
+      break;
+    case '/css/':
+      displayPage('/../sprites/icons.css', 'text/css');
+      break;
+    case '/css/icons.png':
+      displayPage('/../sprites/icons.png', 'image/png');
+      break;
+    case '/maps/':
+      displayWrappedJSON('/../lib/mapdata.min.json', 'var mapdata =');
+      break;
+    default:
+      processAPICall();
+  }
 
-  // if the root is requested then demo form.
-  if (req.url === '/') {
-    displayPage('/../static/index.html');
-  }else if (req.url === '/compress-maps/') {
-    compressMaps();
-  }else{
-    
+
+
+
+  function processAPICall(){
     var options = {};
     if(query.format)
       options.format = query.format;
-
 
     mapper.parseUrls(query.urls, options, function(data){
       res.writeHead(200, {'Content-Type': 'application/json; charset=utf-8'});
@@ -34,8 +52,8 @@ function handler(req, res) {
   }
 
 
-  function displayPage(path){
-    res.writeHead(200, {'Content-Type': 'text/html'});
+  function displayPage(path, mimeType){
+    res.writeHead(200, {'Content-Type': mimeType});
     fs.readFile(__dirname + path, function (err, page) {
       if (err) throw err;
       res.end(page);
@@ -43,32 +61,15 @@ function handler(req, res) {
     return;
   };
 
-
-
-// function compressMaps(){
-//   var fs=require('fs'),
-//       EventEmitter=require('events').EventEmitter,
-//       filesEE=new EventEmitter(),
-//       myfiles=[];
-
-//   // this event will be called when all files have been added to myfiles
-//   filesEE.on('files_ready',function(){
-//     console.dir(myfiles);
-//   });
-
-//   // read all files from current directory
-//   fs.readdir('.',function(err,files){
-//     if(err) throw err;
-//     files.forEach(function(file){
-//       myfiles.push(file);
-//     });
-//     filesEE.emit('files_ready'); // trigger files_ready event
-//   });
-
-// }
-
-
-
+  function displayWrappedJSON(path, start){
+    res.writeHead(200, {'Content-Type': 'application/json'});
+    fs.readFile(__dirname + path, function (err, page) {
+      if (err) throw err;
+      res.write(start);
+      res.end(page);
+    });
+    return;
+  };
 
 
 
@@ -83,6 +84,9 @@ function handler(req, res) {
     filesEvt.on('files_ready',function(){
       console.log('done');
       writeMapData('[' + parts.join() + ']');
+      res.writeHead(200, {'Content-Type': 'text/html'});
+      res.end('done');
+    return;
     });
 
     fs.readdir( __dirname + '/../maps/', function( err, files) {
@@ -101,6 +105,8 @@ function handler(req, res) {
       filesEvt.emit('files_ready');
     });
   };
+
+
 
 
   function writeMapData(content){
