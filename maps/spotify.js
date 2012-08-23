@@ -1,6 +1,6 @@
 {
     "name": "Spotify",
-    "domain": "spotify.com",
+    "domain": "open.spotify.com",
     "urlmappings": [{
         "urltemplate": "http://open.spotify.com/user/{username}",
         "schema": "None",

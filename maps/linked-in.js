@@ -13,13 +13,13 @@
         "mediatype": "Html"
     }, {
         "urltemplate": "http://linkedin.com/pub/{username}",
-        "schema": "hCard",
-        "contenttype": "Profile",
+        "schema": "None",
+        "contenttype": "None",
         "mediatype": "Html"
     }, {
         "urltemplate": "http://linkedin.com/pub/{username}",
-        "schema": "hResume",
-        "contenttype": "Resume",
+        "schema": "None",
+        "contenttype": "None",
         "mediatype": "Html"
     }],
     "www": true

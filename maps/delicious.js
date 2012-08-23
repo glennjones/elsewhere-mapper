@@ -12,6 +12,16 @@
         "contenttype": "Bookmarks",
         "mediatype": "Rss"
     }, {
+        "urltemplate": "http://delicious.com/v1/rss/{username}",
+        "schema": "None",
+        "contenttype": "None",
+        "mediatype": "Rss"
+    }, {
+        "urltemplate": "http://delicious.com/rss/{username}",
+        "schema": "None",
+        "contenttype": "None",
+        "mediatype": "Rss"
+    }, {
         "urltemplate": "http://delicious.com/{username}",
         "schema": "None",
         "contenttype": "Profile",
@@ -30,6 +40,16 @@
         "urltemplate": "http://del.icio.us/v2/rss/{username}",
         "schema": "Rss",
         "contenttype": "Bookmarks",
+        "mediatype": "Rss"
+    }, {
+        "urltemplate": "http://del.icio.us/v1/rss/{username}",
+        "schema": "None",
+        "contenttype": "None",
+        "mediatype": "Rss"
+    }, {
+        "urltemplate": "http://del.icio.us/rss/{username}",
+        "schema": "None",
+        "contenttype": "None",
         "mediatype": "Rss"
     }, {
         "urltemplate": "http://del.icio.us/{username}",

@@ -7,7 +7,7 @@
         "contenttype": "Images",
         "mediatype": "Rss"
     }, {
-        "urltemplate": "http://ffffound.com/home/{username}/found/",
+        "urltemplate": "http://ffffound.com/home/{username}/found",
         "schema": "None",
         "contenttype": "Profile",
         "mediatype": "Html"

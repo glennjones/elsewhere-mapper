@@ -62,6 +62,16 @@
         "contenttype": "Bookmarks",
         "mediatype": "Rss"
     }, {
+        "urltemplate": "http://delicious.com/v1/rss/{username}",
+        "schema": "None",
+        "contenttype": "None",
+        "mediatype": "Rss"
+    }, {
+        "urltemplate": "http://delicious.com/rss/{username}",
+        "schema": "None",
+        "contenttype": "None",
+        "mediatype": "Rss"
+    }, {
         "urltemplate": "http://delicious.com/{username}",
         "schema": "None",
         "contenttype": "Profile",
@@ -80,6 +90,16 @@
         "urltemplate": "http://del.icio.us/v2/rss/{username}",
         "schema": "Rss",
         "contenttype": "Bookmarks",
+        "mediatype": "Rss"
+    }, {
+        "urltemplate": "http://del.icio.us/v1/rss/{username}",
+        "schema": "None",
+        "contenttype": "None",
+        "mediatype": "Rss"
+    }, {
+        "urltemplate": "http://del.icio.us/rss/{username}",
+        "schema": "None",
+        "contenttype": "None",
         "mediatype": "Rss"
     }, {
         "urltemplate": "http://del.icio.us/{username}",
@@ -127,19 +147,53 @@
     "name": "Dopplr",
     "domain": "dopplr.com",
     "urlmappings": [{
-        "urltemplate": "http://www.dopplr.com/traveller/{username}",
+        "urltemplate": "http://dopplr.com/traveller/{username}",
         "schema": "hCard",
         "contenttype": "Profile",
         "mediatype": "Html"
+    }, {
+        "urltemplate": "http://dopplr.com/traveller/{username}/public",
+        "schema": "None",
+        "contenttype": "None",
+        "mediatype": "Html"
     }],
     "www": true
-},{
+}
+
+,{
+    "name": "Dribbble",
+    "domain": "dribbble.com",
+    "urlmappings": [{
+        "urltemplate": "http://dribbble.com/{username}",
+        "schema": "hCard",
+        "contenttype": "Profile",
+        "mediatype": "Html"
+    }, {
+        "urltemplate": "http://dribbble.com/{username}",
+        "schema": "XFN",
+        "contenttype": "Services",
+        "mediatype": "Html"
+    },{
+        "urltemplate": "http://dribbble.com/{username}/shots.rss",
+        "schema": "Activity",
+        "contenttype": "Rss",
+        "mediatype": "Rss"
+    }],
+    "www": true
+}
+
+,{
     "name": "Facebook",
     "domain": "facebook.com",
     "urlmappings": [{
-        "urltemplate": "http://www.facebook.com/{username}",
+        "urltemplate": "http://facebook.com/{username}",
         "schema": "None",
         "contenttype": "Profile",
+        "mediatype": "html"
+    }, {
+        "urltemplate": "http://facebook.com/people/{username}/{userid}",
+        "schema": "None",
+        "contenttype": "None",
         "mediatype": "html"
     }],
     "www": true
@@ -152,13 +206,25 @@
         "contenttype": "Images",
         "mediatype": "Rss"
     }, {
-        "urltemplate": "http://ffffound.com/home/{username}/found/",
+        "urltemplate": "http://ffffound.com/home/{username}/found",
         "schema": "None",
         "contenttype": "Profile",
         "mediatype": "Html"
     }],
     "www": true
 },{
+    "name": "Findings",
+    "domain": "findings.com",
+    "urlmappings": [{
+        "urltemplate": "https://findings.com/{username}",
+        "schema": "None",
+        "contenttype": "Profile",
+        "mediatype": "Html"
+    }],
+    "www": true
+}
+
+,{
     "name": "Flickr",
     "domain": "flickr.com",
     "urlmappings": [{
@@ -242,22 +308,22 @@
     "name": "Github",
     "domain": "github.com",
     "urlmappings": [{
-        "urltemplate": "http://github.com/{username}/",
+        "urltemplate": "https://github.com/{username}.atom",
+        "schema": "Atom",
+        "contenttype": "Activity",
+        "mediatype": "Atom"
+    }, {
+        "urltemplate": "https://github.com/{username}",
         "schema": "hCard",
         "contenttype": "Profile",
         "mediatype": "Html"
     }, {
-        "urltemplate": "http://github.com/{username}/",
+        "urltemplate": "https://github.com/{username}",
         "schema": "XFN",
         "contenttype": "Services",
         "mediatype": "Html"
-    },{
-        "urltemplate": "http://github.com/{username}.atom",
-        "schema": "Atom",
-        "contenttype": "Activity",
-        "mediatype": "Atom"
     }],
-    "www": true
+    "www": false
 },{
     "name": "Google Code",
     "domain": "code.google.com",
@@ -493,13 +559,13 @@
         "mediatype": "Html"
     }, {
         "urltemplate": "http://linkedin.com/pub/{username}",
-        "schema": "hCard",
-        "contenttype": "Profile",
+        "schema": "None",
+        "contenttype": "None",
         "mediatype": "Html"
     }, {
         "urltemplate": "http://linkedin.com/pub/{username}",
-        "schema": "hResume",
-        "contenttype": "Resume",
+        "schema": "None",
+        "contenttype": "None",
         "mediatype": "Html"
     }],
     "www": true
@@ -740,7 +806,7 @@
     "www": false
 },{
     "name": "Spotify",
-    "domain": "spotify.com",
+    "domain": "open.spotify.com",
     "urlmappings": [{
         "urltemplate": "http://open.spotify.com/user/{username}",
         "schema": "None",
@@ -903,12 +969,12 @@
     "name": "Vimeo",
     "domain": "vimeo.com",
     "urlmappings": [{
-        "urltemplate": "http://www.vimeo.com/{username}",
+        "urltemplate": "http://vimeo.com/{username}",
         "schema": "None",
         "contenttype": "Profile",
         "mediatype": "Html"
     }, {
-        "urltemplate": "http://www.vimeo.com/{username}/contacts/sort:newest/page:{pagenumber}",
+        "urltemplate": "http://vimeo.com/{username}/contacts/sort:newest/page:{pagenumber}",
         "schema": "None",
         "contenttype": "Friends",
         "mediatype": "Html"
@@ -980,7 +1046,7 @@
     }, {
         "urltemplate": "http://www.youtube.com/profile?user={username}",
         "schema": "None",
-        "contenttype": "Profile",
+        "contenttype": "None",
         "mediatype": "Html"
     }, {
         "urltemplate": "http://www.youtube.com/user/{username}",

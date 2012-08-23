@@ -19,7 +19,7 @@
     }, {
         "urltemplate": "http://www.youtube.com/profile?user={username}",
         "schema": "None",
-        "contenttype": "Profile",
+        "contenttype": "None",
         "mediatype": "Html"
     }, {
         "urltemplate": "http://www.youtube.com/user/{username}",
