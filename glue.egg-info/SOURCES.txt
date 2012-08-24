@@ -1,7 +1,0 @@
-glue.egg-info/PKG-INFO
-glue.egg-info/SOURCES.txt
-glue.egg-info/dependency_links.txt
-glue.egg-info/entry_points.txt
-glue.egg-info/not-zip-safe
-glue.egg-info/requires.txt
-glue.egg-info/top_level.txt

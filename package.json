@@ -1,7 +1,7 @@
 {
   "author": "Glenn Jones",
   "name": "node-socialgraph-mapper",
-  "description": "A social graph mapper for node.js",
+  "description": "A social graph node mapper for node.js",
   "version": "0.0.1",
   "license": "MIT",
   "repository": {
@@ -9,7 +9,10 @@
     "url": "git://github.com/glennjones/node-socialgraph-mapper.git"
   },
   "main": "index",
-  "dependencies": {},
+  "dependencies": {
+    "jsdom": "0.2.*",
+    "node-minify": "0.4.*"
+  },
   "engines": {
     "node": ">= 0.6.5"
   },

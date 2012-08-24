@@ -1,6 +1,6 @@
 # node-socialgraph-mapper
 
-A social graph mapper for node.js. 
+A social graph node mapper for node.js. 
 
 
 ## Install

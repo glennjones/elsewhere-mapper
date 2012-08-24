@@ -1,5 +1,5 @@
  {
-    "name": "Google+",
+    "name": "Google Plus",
     "domain": "plus.google.com",
     "urlmappings": [{
         "urltemplate": "https://plus.google.com/{userid}/posts",
