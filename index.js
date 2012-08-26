@@ -1,1 +1,1 @@
-module.exports = require('./lib/parser.js');
+module.exports = require('./lib/mapper.js');

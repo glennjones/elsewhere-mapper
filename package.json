@@ -10,7 +10,6 @@
   },
   "main": "index",
   "dependencies": {
-    "jsdom": "0.2.*",
     "node-minify": "0.4.*"
   },
   "engines": {

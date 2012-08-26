@@ -132,5 +132,5 @@ function handler(req, res) {
 
 }
 
-app.listen(8888, 'localhost');
-console.log('App @ http://localhost:8888');
+app.listen(process.env.PORT || 8888, 'localhost');
+console.log('App @ http://localhost:' + process.env.PORT || 8888);
