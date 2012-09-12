@@ -108,7 +108,10 @@
         "mediatype": "Html"
     }],
     "www": true
-},{
+}
+
+
+,{
     "name": "Disqus",
     "domain": "disqus.com",
     "urlmappings": [{

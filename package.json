@@ -10,7 +10,7 @@
   },
   "main": "index",
   "dependencies": {
-    "node-minify": "0.4.*"
+    "node-minify": "0.4.x"
   },
   "engines": {
     "node": ">= 0.6.5"

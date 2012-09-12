@@ -36,20 +36,33 @@ function handler(req, res) {
 
 
   function processAPICall(){
-    var options = {};
+    var options = {},
+        out;
+
     if(query.format)
       options.format = query.format;
 
-    mapper.parseUrls(query.urls, options, function(data){
-      res.writeHead(200, {'Content-Type': 'application/json; charset=utf-8'});
+    res.writeHead(200, {'Content-Type': 'application/json; charset=utf-8'});
 
-      if (query.callback) {
-        res.end(query.callback + '(' + JSON.stringify(data) + ')');
-      } else {
-        res.end(JSON.stringify(data));
-      }
-    });
+    if(query.urls){
+      mapper.parseUrls(query.urls, options, function(data){
+        out = JSON.stringify(data);
+      });
+    }else if(query.sites){
+      mapper.supportedSites(function(data){
+        out = JSON.stringify(data);
+      });
+    }else{
+      out = [];
+    }
+
+    if (query.callback) {
+      res.end(query.callback + '(' + out + ')');
+    } else {
+      res.end(out);
+    }
   }
+
 
 
   function displayPage(path, mimeType){
@@ -132,5 +145,6 @@ function handler(req, res) {
 
 }
 
-app.listen(process.env.PORT || 8888, 'localhost');
-console.log('App @ http://localhost:' + process.env.PORT || 8888);
+app.listen(process.env.PORT || 8881, 'localhost');
+console.log('App @ http://localhost:' + 8881);
+
