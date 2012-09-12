@@ -1,21 +1,21 @@
 {
     "name": "Stumbleupon",
     "domain": "stumbleupon.com",
-    "urlmappings": [{
-        "urltemplate": "http://stumbleupon.com/stumbler/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://stumbleupon.com/stumbler/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://stumbleupon.com/rss/stumbler/{username}/likes",
+        "urlTemplate": "http://stumbleupon.com/rss/stumbler/{username}/likes",
         "schema": "Rss",
-        "contenttype": "Bookmarks",
-        "mediatype": "Rss"
+        "contentType": "Bookmarks",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://stumbleupon.com/rss/stumbler/{username}/comments",
+        "urlTemplate": "http://stumbleupon.com/rss/stumbler/{username}/comments",
         "schema": "Rss",
-        "contenttype": "Activity",
-        "mediatype": "Rss"
+        "contentType": "Activity",
+        "mediaType": "Rss"
     }],
     "www": true
 }

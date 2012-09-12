@@ -1,16 +1,16 @@
 {
     "name": "Twitpic",
     "domain": "twitpic.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.twitpic.com/photos/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.twitpic.com/photos/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://twitpic.com/photos/{username}/feed.rss",
+        "urlTemplate": "http://twitpic.com/photos/{username}/feed.rss",
         "schema": "Rss",
-        "contenttype": "Photos",
-        "mediatype": "Rss"
+        "contentType": "Photos",
+        "mediaType": "Rss"
     }],
     "www": true
 }

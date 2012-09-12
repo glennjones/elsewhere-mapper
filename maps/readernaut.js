@@ -1,16 +1,16 @@
 {
     "name": "Readernaut",
     "domain": "readernaut.com",
-    "urlmappings": [{
-        "urltemplate": "http://readernaut.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://readernaut.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://readernaut.com/feeds/rss/{username}",
+        "urlTemplate": "http://readernaut.com/feeds/rss/{username}",
         "schema": "Rss",
-        "contenttype": "Activity",
-        "mediatype": "Rss"
+        "contentType": "Activity",
+        "mediaType": "Rss"
     }],
     "www": true
 }

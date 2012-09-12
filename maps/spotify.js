@@ -1,11 +1,11 @@
 {
     "name": "Spotify",
     "domain": "open.spotify.com",
-    "urlmappings": [{
-        "urltemplate": "http://open.spotify.com/user/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://open.spotify.com/user/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": false
 }

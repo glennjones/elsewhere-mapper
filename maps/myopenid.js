@@ -1,11 +1,11 @@
 {
     "name": "MyOpenid",
     "domain": "myopenid.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.myopenid.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.myopenid.com/",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": false
 }

@@ -1,11 +1,11 @@
 {
     "name": "ClaimId",
     "domain": "claimid.com",
-    "urlmappings": [{
-        "urltemplate": "http://claimid.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://claimid.com/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

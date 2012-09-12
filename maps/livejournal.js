@@ -1,16 +1,16 @@
 {
     "name": "Livejournal",
     "domain": "livejournal.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.livejournal.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.livejournal.com/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.livejournal.com/",
+        "urlTemplate": "http://{username}.livejournal.com/",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }],
     "www": true
 }

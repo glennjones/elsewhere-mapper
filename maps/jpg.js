@@ -1,31 +1,31 @@
 {
     "name": "JPG",
     "domain": "jpgmag.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.jpgmag.com/people/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.jpgmag.com/people/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.jpgmag.com/people/{username}/photos/rss",
+        "urlTemplate": "http://www.jpgmag.com/people/{username}/photos/rss",
         "schema": "Rss",
-        "contenttype": "Images",
-        "mediatype": "Rss"
+        "contentType": "Images",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://www.jpgmag.com/people/{username}/stories/rss",
+        "urlTemplate": "http://www.jpgmag.com/people/{username}/stories/rss",
         "schema": "Rss",
-        "contenttype": "Entries",
-        "mediatype": "Rss"
+        "contentType": "Entries",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://www.jpgmag.com/people/{username}/photos",
+        "urlTemplate": "http://www.jpgmag.com/people/{username}/photos",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.jpgmag.com/people/{username}/stories",
+        "urlTemplate": "http://www.jpgmag.com/people/{username}/stories",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }],
     "www": true
 }

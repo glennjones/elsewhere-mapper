@@ -1,4 +1,4 @@
-# elsewher-mapper
+# elsewhere-mapper
 
 The elsewhere-mapper is part of a collection of node.js modules that enable the discovery the profiles and identities people create across the web and bring them together.
 
@@ -16,7 +16,7 @@ or
 
 #### Use
 
-with JSON
+with JSON from elsewhere module
 
     var mapper = require("elsewhere-mapper");
 
@@ -24,7 +24,7 @@ with JSON
         // do something with data
     });
 
-with URLs
+with list of URLs
 
     var mapper = require("elsewhere-mapper");
 

@@ -1,21 +1,21 @@
 {
     "name": "Soup.io",
     "domain": "soup.io",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.soup.io/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.soup.io/",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.soup.io/",
+        "urlTemplate": "http://{username}.soup.io/",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.soup.io/rss",
+        "urlTemplate": "http://{username}.soup.io/rss",
         "schema": "Rss",
-        "contenttype": "Lifestream",
-        "mediatype": "Rss"
+        "contentType": "Lifestream",
+        "mediaType": "Rss"
     }],
     "www": false
 }

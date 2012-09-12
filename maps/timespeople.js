@@ -1,21 +1,21 @@
 {
     "name": "Times People",
     "domain": "timespeople.nytimes.com",
-    "urlmappings": [{
-        "urltemplate": "http://timespeople.nytimes.com/view/user/{userid}",
+    "urlMappings": [{
+        "urlTemplate": "http://timespeople.nytimes.com/view/user/{userid}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://timespeople.nytimes.com/view/user/{userid}/activities.html",
+        "urlTemplate": "http://timespeople.nytimes.com/view/user/{userid}/activities.html",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://timespeople.nytimes.com/view/user/{userid}/rss.xml",
+        "urlTemplate": "http://timespeople.nytimes.com/view/user/{userid}/rss.xml",
         "schema": "Rss",
-        "contenttype": "Activity",
-        "mediatype": "Rss"
+        "contentType": "Activity",
+        "mediaType": "Rss"
     }],
     "www": true
 }

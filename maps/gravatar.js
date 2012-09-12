@@ -1,21 +1,21 @@
 {
     "name": "Gravatar",
     "domain": "gravatar.com",
-    "urlmappings": [{
-        "urltemplate": "http://gravatar.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://gravatar.com/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://gravatar.com/{username}",
+        "urlTemplate": "http://gravatar.com/{username}",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://en.gravatar.com/{username}",
+        "urlTemplate": "http://en.gravatar.com/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }],
     "www": true
 }

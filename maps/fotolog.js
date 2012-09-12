@@ -1,11 +1,11 @@
 {
     "name": "Fotolog",
     "domain": "fotolog.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.fotolog.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.fotolog.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

@@ -1,16 +1,16 @@
 {
     "name": "Tumblr",
     "domain": "tumblr.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.tumblr.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.tumblr.com/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.tumblr.com/rss",
+        "urlTemplate": "http://{username}.tumblr.com/rss",
         "schema": "Rss",
-        "contenttype": "Lifestream",
-        "mediatype": "Rss"
+        "contentType": "Lifestream",
+        "mediaType": "Rss"
     }],
     "www": true
 }

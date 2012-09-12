@@ -1,26 +1,26 @@
 {
     "name": "Django People",
     "domain": "people.djangoproject.com",
-    "urlmappings": [{
-        "urltemplate": "http://people.djangopeople.com/{username}/",
+    "urlMappings": [{
+        "urlTemplate": "http://people.djangopeople.com/{username}/",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://people.djangopeople.com/{username}/",
+        "urlTemplate": "http://people.djangopeople.com/{username}/",
         "schema": "hResume",
-        "contenttype": "Resume",
-        "mediatype": "Html"
+        "contentType": "Resume",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://people.djangopeople.com/{username}/",
+        "urlTemplate": "http://people.djangopeople.com/{username}/",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://people.djangopeople.com/{username}/",
+        "urlTemplate": "http://people.djangopeople.com/{username}/",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }],
     "www": false
 }

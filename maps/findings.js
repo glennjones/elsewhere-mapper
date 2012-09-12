@@ -1,11 +1,11 @@
 {
     "name": "Findings",
     "domain": "findings.com",
-    "urlmappings": [{
-        "urltemplate": "https://findings.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "https://findings.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

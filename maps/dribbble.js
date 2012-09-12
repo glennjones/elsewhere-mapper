@@ -1,21 +1,21 @@
 {
     "name": "Dribbble",
     "domain": "dribbble.com",
-    "urlmappings": [{
-        "urltemplate": "http://dribbble.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://dribbble.com/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://dribbble.com/{username}",
+        "urlTemplate": "http://dribbble.com/{username}",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     },{
-        "urltemplate": "http://dribbble.com/{username}/shots.rss",
+        "urlTemplate": "http://dribbble.com/{username}/shots.rss",
         "schema": "Images",
-        "contenttype": "Rss",
-        "mediatype": "Rss"
+        "contentType": "Rss",
+        "mediaType": "Rss"
     }],
     "www": true
 }

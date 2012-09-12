@@ -1,36 +1,36 @@
 {
     "name": "Identica",
     "domain": "identi.ca",
-    "urlmappings": [{
-        "urltemplate": "http://identi.ca/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://identi.ca/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://identi.ca/{username}/foaf",
+        "urlTemplate": "http://identi.ca/{username}/foaf",
         "schema": "FOAF",
-        "contenttype": "Profile",
-        "mediatype": "Xml"
+        "contentType": "Profile",
+        "mediaType": "Xml"
     }, {
-        "urltemplate": "http://identi.ca/{username}/subscriptions?page={pagenumber}",
+        "urlTemplate": "http://identi.ca/{username}/subscriptions?page={pagenumber}",
         "schema": "hCard",
-        "contenttype": "Friends",
-        "mediatype": "Html"
+        "contentType": "Friends",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://identi.ca/{username}",
+        "urlTemplate": "http://identi.ca/{username}",
         "schema": "hAtom",
-        "contenttype": "Status",
-        "mediatype": "Html"
+        "contentType": "Status",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://identi.ca/{username}",
+        "urlTemplate": "http://identi.ca/{username}",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://identi.ca/{username}/all",
+        "urlTemplate": "http://identi.ca/{username}/all",
         "schema": "hAtom",
-        "contenttype": "Friends Status",
-        "mediatype": "Html"
+        "contentType": "Friends Status",
+        "mediaType": "Html"
     }],
     "www": true
 }

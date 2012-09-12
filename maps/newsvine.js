@@ -1,16 +1,16 @@
 {
     "name": "Newsvine",
     "domain": "newsvine.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.newsvine.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.newsvine.com/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     },{
-        "urltemplate": "http://{username}.newsvine.com/",
+        "urlTemplate": "http://{username}.newsvine.com/",
         "schema": "rel-tag",
-        "contenttype": "Intrests",
-        "mediatype": "Html"
+        "contentType": "Intrests",
+        "mediaType": "Html"
     }],
     "www": false
 }

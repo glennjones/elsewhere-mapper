@@ -1,31 +1,31 @@
 {
     "name": "Youtube",
     "domain": "youtube.com",
-    "urlmappings": [{
-        "urltemplate": "http://gdata.youtube.com/feeds/base/users/{username}/uploads?alt=rss&v=2",
+    "urlMappings": [{
+        "urlTemplate": "http://gdata.youtube.com/feeds/base/users/{username}/uploads?alt=rss&v=2",
         "schema": "Atom",
-        "contenttype": "Video",
-        "mediatype": "Atom"
+        "contentType": "Video",
+        "mediaType": "Atom"
     }, {
-        "urltemplate": "http://youtube.com/rss/user/{username}/videos.rss",
+        "urlTemplate": "http://youtube.com/rss/user/{username}/videos.rss",
         "schema": "Rss",
-        "contenttype": "Video",
-        "mediatype": "Rss"
+        "contentType": "Video",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://youtube.com/user/{username}",
+        "urlTemplate": "http://youtube.com/user/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.youtube.com/profile?user={username}",
+        "urlTemplate": "http://www.youtube.com/profile?user={username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.youtube.com/user/{username}",
+        "urlTemplate": "http://www.youtube.com/user/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

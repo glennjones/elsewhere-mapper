@@ -1,21 +1,21 @@
 {
     "name": "Stackoverflow",
     "domain": "stackoverflow.com",
-    "urlmappings": [{
-        "urltemplate": "http://stackoverflow.com/users/{userid}/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://stackoverflow.com/users/{userid}/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://stackoverflow.com/users/{userid}/{username}",
+        "urlTemplate": "http://stackoverflow.com/users/{userid}/{username}",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://stackoverflow.com/feeds/user/{userid}",
+        "urlTemplate": "http://stackoverflow.com/feeds/user/{userid}",
         "schema": "Rss",
-        "contenttype": "Activity",
-        "mediatype": "Rss"
+        "contentType": "Activity",
+        "mediaType": "Rss"
     }],
     "www": true
 }

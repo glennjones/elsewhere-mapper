@@ -1,11 +1,11 @@
 {
     "name": "Threadless",
     "domain": "threadless.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.threadless.com/profile/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.threadless.com/profile/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

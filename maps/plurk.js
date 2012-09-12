@@ -1,16 +1,16 @@
 {
     "name": "Plurk",
     "domain": "plurk.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.plurk.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.plurk.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.plurk.com/{username}.xml",
+        "urlTemplate": "http://www.plurk.com/{username}.xml",
         "schema": "Atom",
-        "contenttype": "Events",
-        "mediatype": "Atom"
+        "contentType": "Events",
+        "mediaType": "Atom"
     }],
     "www": true
 }

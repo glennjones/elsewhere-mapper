@@ -1,11 +1,11 @@
 {
     "name": "Orkut",
     "domain": "orkut.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.orkut.com/Profile.aspx?uid={userid}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.orkut.com/Profile.aspx?uid={userid}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

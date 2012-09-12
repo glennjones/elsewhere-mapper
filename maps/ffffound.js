@@ -1,16 +1,16 @@
 {
     "name": "FFFFound",
     "domain": "ffffound.com",
-    "urlmappings": [{
-        "urltemplate": "http://ffffound.com/home/{username}/found/feed",
+    "urlMappings": [{
+        "urlTemplate": "http://ffffound.com/home/{username}/found/feed",
         "schema": "Rss",
-        "contenttype": "Images",
-        "mediatype": "Rss"
+        "contentType": "Images",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://ffffound.com/home/{username}/found",
+        "urlTemplate": "http://ffffound.com/home/{username}/found",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

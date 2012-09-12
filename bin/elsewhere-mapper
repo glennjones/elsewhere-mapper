@@ -16,8 +16,8 @@ function handler(req, res) {
     case '/compress-maps/':
       compressMaps();
       break;
-    case '/unit-tests/':
-      displayPage('/../static/unit-tests.html', 'text/html');
+    case '/supported-sites/':
+      displayPage('/../static/supported-sites.html', 'text/html');
       break;
     case '/css/':
       displayPage('/../sprites/icons.css', 'text/css');
@@ -36,31 +36,39 @@ function handler(req, res) {
 
 
   function processAPICall(){
-    var options = {},
-        out;
-
+    var options = {};
     if(query.format)
       options.format = query.format;
 
-    res.writeHead(200, {'Content-Type': 'application/json; charset=utf-8'});
-
+    
     if(query.urls){
-      mapper.parseUrls(query.urls, options, function(data){
-        out = JSON.stringify(data);
+      mapper.parseUrls(query.urls, function(data){
+        writeContent(data, query.callback);
+      });
+    }else if(query.json){
+      var json = JSON.parse(query.json)
+      mapper.parseElsewhereJson(json, function(data){
+        writeContent(data, query.callback);
       });
     }else if(query.sites){
       mapper.supportedSites(function(data){
-        out = JSON.stringify(data);
+        writeContent(data, query.callback);
       });
     }else{
-      out = [];
+      writeContent([], query.callback);
     }
 
-    if (query.callback) {
-      res.end(query.callback + '(' + out + ')');
-    } else {
-      res.end(out);
+    function writeContent(json,callback){
+      var str = JSON.stringify(json);
+      res.writeHead(200, {'Content-Type': 'application/json; charset=utf-8'});
+      if (callback) {
+        res.end(callback + '(' + str + ')');
+      } else {
+        res.end(str);
+      }
     }
+
+
   }
 
 

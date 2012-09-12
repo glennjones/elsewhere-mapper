@@ -1,21 +1,21 @@
 {
     "name": "FriendFeed",
     "domain": "friendfeed.com",
-    "urlmappings": [{
-        "urltemplate": "http://friendfeed.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://friendfeed.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://friendfeed.com/{username}/services",
+        "urlTemplate": "http://friendfeed.com/{username}/services",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://friendfeed.com/{username}?format=atom",
+        "urlTemplate": "http://friendfeed.com/{username}?format=atom",
         "schema": "Atom",
-        "contenttype": "Lifestream",
-        "mediatype": "Atom"
+        "contentType": "Lifestream",
+        "mediaType": "Atom"
     }],
     "www": true
 }

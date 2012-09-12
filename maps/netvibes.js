@@ -1,11 +1,11 @@
 {
     "name": "Netvibes",
     "domain": "netvibes.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.netvibes.com/{username)",
+    "urlMappings": [{
+        "urlTemplate": "http://www.netvibes.com/{username)",
         "schema": "none",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

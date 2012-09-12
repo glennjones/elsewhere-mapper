@@ -1,16 +1,16 @@
 {
     "name": "Plaxo",
     "domain": "plaxo.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.myplaxo.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.myplaxo.com/",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.plaxo.com/profile/show/{username}",
+        "urlTemplate": "http://www.plaxo.com/profile/show/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

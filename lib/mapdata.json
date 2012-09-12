@@ -1,111 +1,111 @@
 [{
     "name": "43places",
     "domain": "43places.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.43places.com/person/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.43places.com/person/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "43things",
     "domain": "43things.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.43things.com/person/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.43things.com/person/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.43things.com/rss/uber/author?username={username}",
+        "urlTemplate": "http://www.43things.com/rss/uber/author?username={username}",
         "schema": "Rss",
-        "contenttype": "Activity",
-        "mediatype": "Rss"
+        "contentType": "Activity",
+        "mediaType": "Rss"
     }],
     "www": true
 },{
     "name": "Blip.fm",
     "domain": "blip.fm",
-    "urlmappings": [{
-        "urltemplate": "http://blip.fm/{username}/",
+    "urlMappings": [{
+        "urlTemplate": "http://blip.fm/{username}/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://blip.fm/feed/{username}",
+        "urlTemplate": "http://blip.fm/feed/{username}",
         "schema": "Atom",
-        "contenttype": "Audio",
-        "mediatype": "Atom"
+        "contentType": "Audio",
+        "mediaType": "Atom"
     }],
     "www": true
 },{
     "name": "ClaimId",
     "domain": "claimid.com",
-    "urlmappings": [{
-        "urltemplate": "http://claimid.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://claimid.com/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Delicious",
     "domain": "delicious.com",
-    "urlmappings": [{
-        "urltemplate": "http://delicious.com/{username}/tags",
+    "urlMappings": [{
+        "urlTemplate": "http://delicious.com/{username}/tags",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://delicious.com/v2/rss/{username}",
+        "urlTemplate": "http://delicious.com/v2/rss/{username}",
         "schema": "Rss",
-        "contenttype": "Bookmarks",
-        "mediatype": "Rss"
+        "contentType": "Bookmarks",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://delicious.com/v1/rss/{username}",
+        "urlTemplate": "http://delicious.com/v1/rss/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Rss"
+        "contentType": "None",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://delicious.com/rss/{username}",
+        "urlTemplate": "http://delicious.com/rss/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Rss"
+        "contentType": "None",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://delicious.com/{username}",
+        "urlTemplate": "http://delicious.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }, {
     "name": "Delicious",
     "domain": "del.icio.us",
-    "urlmappings": [{
-        "urltemplate": "http://del.icio.us/{username}/tags",
+    "urlMappings": [{
+        "urlTemplate": "http://del.icio.us/{username}/tags",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://del.icio.us/v2/rss/{username}",
+        "urlTemplate": "http://del.icio.us/v2/rss/{username}",
         "schema": "Rss",
-        "contenttype": "Bookmarks",
-        "mediatype": "Rss"
+        "contentType": "Bookmarks",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://del.icio.us/v1/rss/{username}",
+        "urlTemplate": "http://del.icio.us/v1/rss/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Rss"
+        "contentType": "None",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://del.icio.us/rss/{username}",
+        "urlTemplate": "http://del.icio.us/rss/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Rss"
+        "contentType": "None",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://del.icio.us/{username}",
+        "urlTemplate": "http://del.icio.us/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }
@@ -114,51 +114,51 @@
 ,{
     "name": "Disqus",
     "domain": "disqus.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.disqus.com/{username}/",
+    "urlMappings": [{
+        "urlTemplate": "http://www.disqus.com/{username}/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Django People",
     "domain": "people.djangoproject.com",
-    "urlmappings": [{
-        "urltemplate": "http://people.djangopeople.com/{username}/",
+    "urlMappings": [{
+        "urlTemplate": "http://people.djangopeople.com/{username}/",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://people.djangopeople.com/{username}/",
+        "urlTemplate": "http://people.djangopeople.com/{username}/",
         "schema": "hResume",
-        "contenttype": "Resume",
-        "mediatype": "Html"
+        "contentType": "Resume",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://people.djangopeople.com/{username}/",
+        "urlTemplate": "http://people.djangopeople.com/{username}/",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://people.djangopeople.com/{username}/",
+        "urlTemplate": "http://people.djangopeople.com/{username}/",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }],
     "www": false
 },{
     "name": "Dopplr",
     "domain": "dopplr.com",
-    "urlmappings": [{
-        "urltemplate": "http://dopplr.com/traveller/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://dopplr.com/traveller/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://dopplr.com/traveller/{username}/public",
+        "urlTemplate": "http://dopplr.com/traveller/{username}/public",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }],
     "www": true
 }
@@ -166,21 +166,21 @@
 ,{
     "name": "Dribbble",
     "domain": "dribbble.com",
-    "urlmappings": [{
-        "urltemplate": "http://dribbble.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://dribbble.com/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://dribbble.com/{username}",
+        "urlTemplate": "http://dribbble.com/{username}",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     },{
-        "urltemplate": "http://dribbble.com/{username}/shots.rss",
+        "urlTemplate": "http://dribbble.com/{username}/shots.rss",
         "schema": "Images",
-        "contenttype": "Rss",
-        "mediatype": "Rss"
+        "contentType": "Rss",
+        "mediaType": "Rss"
     }],
     "www": true
 }
@@ -188,41 +188,41 @@
 ,{
     "name": "Facebook",
     "domain": "facebook.com",
-    "urlmappings": [{
-        "urltemplate": "http://facebook.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://facebook.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "html"
+        "contentType": "Profile",
+        "mediaType": "html"
     }, {
-        "urltemplate": "http://facebook.com/people/{username}/{userid}",
+        "urlTemplate": "http://facebook.com/people/{username}/{userid}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "html"
+        "contentType": "None",
+        "mediaType": "html"
     }],
     "www": true
 },{
     "name": "FFFFound",
     "domain": "ffffound.com",
-    "urlmappings": [{
-        "urltemplate": "http://ffffound.com/home/{username}/found/feed",
+    "urlMappings": [{
+        "urlTemplate": "http://ffffound.com/home/{username}/found/feed",
         "schema": "Rss",
-        "contenttype": "Images",
-        "mediatype": "Rss"
+        "contentType": "Images",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://ffffound.com/home/{username}/found",
+        "urlTemplate": "http://ffffound.com/home/{username}/found",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Findings",
     "domain": "findings.com",
-    "urlmappings": [{
-        "urltemplate": "https://findings.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "https://findings.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }
@@ -230,601 +230,601 @@
 ,{
     "name": "Flickr",
     "domain": "flickr.com",
-    "urlmappings": [{
-        "urltemplate": "http://flickr.com/people/{username}/",
+    "urlMappings": [{
+        "urlTemplate": "http://flickr.com/people/{username}/",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://flickr.com/people/{username}/",
+        "urlTemplate": "http://flickr.com/people/{username}/",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     },  {
-        "urltemplate": "http://api.flickr.com/services/feeds/photos_public.gne?id={userid}&format=rss_200",
+        "urlTemplate": "http://api.flickr.com/services/feeds/photos_public.gne?id={userid}&format=rss_200",
         "schema": "Rss",
-        "contenttype": "Images",
-        "mediatype": "Rss"
+        "contentType": "Images",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://api.flickr.com/services/feeds/photos_public.gne?id={userid}&format=atom",
+        "urlTemplate": "http://api.flickr.com/services/feeds/photos_public.gne?id={userid}&format=atom",
         "schema": "Atom",
-        "contenttype": "Images",
-        "mediatype": "Atom"
+        "contentType": "Images",
+        "mediaType": "Atom"
     }, {
-        "urltemplate": "http://flickr.com/photos/{username}/",
+        "urlTemplate": "http://flickr.com/photos/{username}/",
         "schema": "None",
-        "contenttype": "Images",
-        "mediatype": "Html"
+        "contentType": "Images",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://flickr.com/people/{username}/contacts/?page={pagenumber}",
+        "urlTemplate": "http://flickr.com/people/{username}/contacts/?page={pagenumber}",
         "schema": "XFN",
-        "contenttype": "Friends",
-        "mediatype": "Html"
+        "contentType": "Friends",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Fotolog",
     "domain": "fotolog.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.fotolog.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.fotolog.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "FriendFeed",
     "domain": "friendfeed.com",
-    "urlmappings": [{
-        "urltemplate": "http://friendfeed.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://friendfeed.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://friendfeed.com/{username}/services",
+        "urlTemplate": "http://friendfeed.com/{username}/services",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://friendfeed.com/{username}?format=atom",
+        "urlTemplate": "http://friendfeed.com/{username}?format=atom",
         "schema": "Atom",
-        "contenttype": "Lifestream",
-        "mediatype": "Atom"
+        "contentType": "Lifestream",
+        "mediaType": "Atom"
     }],
     "www": true
 },{
     "name": "GetSatisfaction",
     "domain": "getsatisfaction.com",
-    "urlmappings": [{
-        "urltemplate": "http://getsatisfaction.com/people/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://getsatisfaction.com/people/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://getsatisfaction.com/people/{username}.rss",
+        "urlTemplate": "http://getsatisfaction.com/people/{username}.rss",
         "schema": "Rss",
-        "contenttype": "Activity",
-        "mediatype": "Rss"
+        "contentType": "Activity",
+        "mediaType": "Rss"
     }],
     "www": true
 },{
     "name": "Github",
     "domain": "github.com",
-    "urlmappings": [{
-        "urltemplate": "https://github.com/{username}.atom",
+    "urlMappings": [{
+        "urlTemplate": "https://github.com/{username}.atom",
         "schema": "Atom",
-        "contenttype": "Activity",
-        "mediatype": "Atom"
+        "contentType": "Activity",
+        "mediaType": "Atom"
     }, {
-        "urltemplate": "https://github.com/{username}",
+        "urlTemplate": "https://github.com/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "https://github.com/{username}",
+        "urlTemplate": "https://github.com/{username}",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }],
     "www": false
 },{
     "name": "Google Code",
     "domain": "code.google.com",
-    "urlmappings": [{
-        "urltemplate": "http://code.google.com/u/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://code.google.com/u/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": false
 }, {
     "name": "Google Plus",
     "domain": "plus.google.com",
-    "urlmappings": [{
-        "urltemplate": "https://plus.google.com/{userid}/posts",
+    "urlMappings": [{
+        "urlTemplate": "https://plus.google.com/{userid}/posts",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "https://plus.google.com/{userid}/posts",
+        "urlTemplate": "https://plus.google.com/{userid}/posts",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "https://plus.google.com/{userid}",
+        "urlTemplate": "https://plus.google.com/{userid}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://plus.google.com/u/0/{userid}",
+        "urlTemplate": "http://plus.google.com/u/0/{userid}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://plus.google.com/u/0/{userid}/posts",
+        "urlTemplate": "http://plus.google.com/u/0/{userid}/posts",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://plus.google.com/u/0/{userid}/buzz",
+        "urlTemplate": "http://plus.google.com/u/0/{userid}/buzz",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://plus.google.com/u/0/{userid}/about",
+        "urlTemplate": "http://plus.google.com/u/0/{userid}/about",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }],
     "www": false
  },{
     "name": "Gravatar",
     "domain": "gravatar.com",
-    "urlmappings": [{
-        "urltemplate": "http://gravatar.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://gravatar.com/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://gravatar.com/{username}",
+        "urlTemplate": "http://gravatar.com/{username}",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://en.gravatar.com/{username}",
+        "urlTemplate": "http://en.gravatar.com/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Huffduffer",
     "domain": "huffduffer.com",
-    "urlmappings": [{
-        "urltemplate": "http://huffduffer.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://huffduffer.com/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://huffduffer.com/{username}/rss",
+        "urlTemplate": "http://huffduffer.com/{username}/rss",
         "schema": "Rss",
-        "contenttype": "Audio",
-        "mediatype": "Rss"
+        "contentType": "Audio",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://huffduffer.com/{username}",
+        "urlTemplate": "http://huffduffer.com/{username}",
         "schema": "hAtom",
-        "contenttype": "Audio",
-        "mediatype": "Html"
+        "contentType": "Audio",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://huffduffer.com/{username}",
+        "urlTemplate": "http://huffduffer.com/{username}",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Identica",
     "domain": "identi.ca",
-    "urlmappings": [{
-        "urltemplate": "http://identi.ca/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://identi.ca/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://identi.ca/{username}/foaf",
+        "urlTemplate": "http://identi.ca/{username}/foaf",
         "schema": "FOAF",
-        "contenttype": "Profile",
-        "mediatype": "Xml"
+        "contentType": "Profile",
+        "mediaType": "Xml"
     }, {
-        "urltemplate": "http://identi.ca/{username}/subscriptions?page={pagenumber}",
+        "urlTemplate": "http://identi.ca/{username}/subscriptions?page={pagenumber}",
         "schema": "hCard",
-        "contenttype": "Friends",
-        "mediatype": "Html"
+        "contentType": "Friends",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://identi.ca/{username}",
+        "urlTemplate": "http://identi.ca/{username}",
         "schema": "hAtom",
-        "contenttype": "Status",
-        "mediatype": "Html"
+        "contentType": "Status",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://identi.ca/{username}",
+        "urlTemplate": "http://identi.ca/{username}",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://identi.ca/{username}/all",
+        "urlTemplate": "http://identi.ca/{username}/all",
         "schema": "hAtom",
-        "contenttype": "Friends Status",
-        "mediatype": "Html"
+        "contentType": "Friends Status",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "JPG",
     "domain": "jpgmag.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.jpgmag.com/people/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.jpgmag.com/people/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.jpgmag.com/people/{username}/photos/rss",
+        "urlTemplate": "http://www.jpgmag.com/people/{username}/photos/rss",
         "schema": "Rss",
-        "contenttype": "Images",
-        "mediatype": "Rss"
+        "contentType": "Images",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://www.jpgmag.com/people/{username}/stories/rss",
+        "urlTemplate": "http://www.jpgmag.com/people/{username}/stories/rss",
         "schema": "Rss",
-        "contenttype": "Entries",
-        "mediatype": "Rss"
+        "contentType": "Entries",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://www.jpgmag.com/people/{username}/photos",
+        "urlTemplate": "http://www.jpgmag.com/people/{username}/photos",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.jpgmag.com/people/{username}/stories",
+        "urlTemplate": "http://www.jpgmag.com/people/{username}/stories",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "krop",
     "domain": "krop.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.krop.com/meandmisterjones/#/",
+    "urlMappings": [{
+        "urlTemplate": "http://www.krop.com/meandmisterjones/#/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Lanyrd",
     "domain": "lanyrd.com",
-    "urlmappings": [{
-        "urltemplate": "http://lanyrd.com/people/{username}/",
+    "urlMappings": [{
+        "urlTemplate": "http://lanyrd.com/people/{username}/",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://lanyrd.com/profile/{username}/",
+        "urlTemplate": "http://lanyrd.com/profile/{username}/",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://lanyrd.com/profile/{username}/",
+        "urlTemplate": "http://lanyrd.com/profile/{username}/",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://lanyrd.com/profile/{username}/future/",
+        "urlTemplate": "http://lanyrd.com/profile/{username}/future/",
         "schema": "hCalendar",
-        "contenttype": "Events",
-        "mediatype": "Html"
+        "contentType": "Events",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://lanyrd.com/profile/{username}/past/",
+        "urlTemplate": "http://lanyrd.com/profile/{username}/past/",
         "schema": "hCalendar",
-        "contenttype": "Events",
-        "mediatype": "Html"
+        "contentType": "Events",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Last.fm",
     "domain": "last.fm",
-    "urlmappings": [{
-        "urltemplate": "http://last.fm/user/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://last.fm/user/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://last.fm/user/{username}/friends?page={pagenumber}",
+        "urlTemplate": "http://last.fm/user/{username}/friends?page={pagenumber}",
         "schema": "hCard",
-        "contenttype": "Friends",
-        "mediatype": "Html"
+        "contentType": "Friends",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://last.fm/user/{username}/events",
+        "urlTemplate": "http://last.fm/user/{username}/events",
         "schema": "hCalendar",
-        "contenttype": "Events",
-        "mediatype": "Html"
+        "contentType": "Events",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://ws.audioscrobbler.com/2.0/user/{username}/recenttracks.rss",
+        "urlTemplate": "http://ws.audioscrobbler.com/2.0/user/{username}/recenttracks.rss",
         "schema": "Rss",
-        "contenttype": "Activity",
-        "mediatype": "Rss"
+        "contentType": "Activity",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://ws.audioscrobbler.com/2.0/user/{username}/events.rss",
+        "urlTemplate": "http://ws.audioscrobbler.com/2.0/user/{username}/events.rss",
         "schema": "Rss",
-        "contenttype": "Events",
-        "mediatype": "Rss"
+        "contentType": "Events",
+        "mediaType": "Rss"
     }],
     "www": true
 },{
     "name": "Linked-in",
     "domain": "linkedin.com",
-    "urlmappings": [{
-        "urltemplate": "http://linkedin.com/in/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://linkedin.com/in/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://linkedin.com/in/{username}",
+        "urlTemplate": "http://linkedin.com/in/{username}",
         "schema": "hResume",
-        "contenttype": "Resume",
-        "mediatype": "Html"
+        "contentType": "Resume",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://linkedin.com/pub/{username}",
+        "urlTemplate": "http://linkedin.com/pub/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://linkedin.com/pub/{username}",
+        "urlTemplate": "http://linkedin.com/pub/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Livejournal",
     "domain": "livejournal.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.livejournal.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.livejournal.com/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.livejournal.com/",
+        "urlTemplate": "http://{username}.livejournal.com/",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Meetup",
     "domain": "meetup.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.meetup.com/members/{userid}/",
+    "urlMappings": [{
+        "urlTemplate": "http://www.meetup.com/members/{userid}/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Microformats.org",
     "domain": "microformats.org",
-    "urlmappings": [{
-        "urltemplate": "http://microformats.org/wiki/User:{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://microformats.org/wiki/User:{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://microformats.org/wiki/User:{username}",
+        "urlTemplate": "http://microformats.org/wiki/User:{username}",
         "schema": "hAtom",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "MyOpenid",
     "domain": "myopenid.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.myopenid.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.myopenid.com/",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": false
 },{
     "name": "MySpace",
     "domain": "myspace.com",
-    "urlmappings": [{
-        "urltemplate": "http://myspace.com/{userid)",
+    "urlMappings": [{
+        "urlTemplate": "http://myspace.com/{userid)",
         "schema": "none",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Netvibes",
     "domain": "netvibes.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.netvibes.com/{username)",
+    "urlMappings": [{
+        "urlTemplate": "http://www.netvibes.com/{username)",
         "schema": "none",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Newsvine",
     "domain": "newsvine.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.newsvine.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.newsvine.com/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     },{
-        "urltemplate": "http://{username}.newsvine.com/",
+        "urlTemplate": "http://{username}.newsvine.com/",
         "schema": "rel-tag",
-        "contenttype": "Intrests",
-        "mediatype": "Html"
+        "contentType": "Intrests",
+        "mediaType": "Html"
     }],
     "www": false
 },{
     "name": "Orkut",
     "domain": "orkut.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.orkut.com/Profile.aspx?uid={userid}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.orkut.com/Profile.aspx?uid={userid}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Picasa",
     "domain": "picasaweb.google.com",
-    "urlmappings": [{
-        "urltemplate": "http://picasaweb.google.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://picasaweb.google.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://picasaweb.google.com/data/feed/base/user/{username}?alt=rss&kind=album&hl=en_US&access=public",
+        "urlTemplate": "http://picasaweb.google.com/data/feed/base/user/{username}?alt=rss&kind=album&hl=en_US&access=public",
         "schema": "Rss",
-        "contenttype": "Images",
-        "mediatype": "Rss"
+        "contentType": "Images",
+        "mediaType": "Rss"
     }],
     "www": true
 },{
     "name": "Plaxo",
     "domain": "plaxo.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.myplaxo.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.myplaxo.com/",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.plaxo.com/profile/show/{username}",
+        "urlTemplate": "http://www.plaxo.com/profile/show/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Plurk",
     "domain": "plurk.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.plurk.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.plurk.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.plurk.com/{username}.xml",
+        "urlTemplate": "http://www.plurk.com/{username}.xml",
         "schema": "Atom",
-        "contenttype": "Events",
-        "mediatype": "Atom"
+        "contentType": "Events",
+        "mediaType": "Atom"
     }],
     "www": true
 },{
     "name": "Posterous",
     "domain": "posterous.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.posterous.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.posterous.com/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     },{
-        "urltemplate": "http://{username}.posterous.com/",
+        "urlTemplate": "http://{username}.posterous.com/",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.posterous.com/rss.xml",
+        "urlTemplate": "http://{username}.posterous.com/rss.xml",
         "schema": "Rss",
-        "contenttype": "Entries",
-        "mediatype": "Rss"
+        "contentType": "Entries",
+        "mediaType": "Rss"
     }],
     "www": false
 },{
     "name": "Readernaut",
     "domain": "readernaut.com",
-    "urlmappings": [{
-        "urltemplate": "http://readernaut.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://readernaut.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://readernaut.com/feeds/rss/{username}",
+        "urlTemplate": "http://readernaut.com/feeds/rss/{username}",
         "schema": "Rss",
-        "contenttype": "Activity",
-        "mediatype": "Rss"
+        "contentType": "Activity",
+        "mediaType": "Rss"
     }],
     "www": true
 },{
     "name": "Slideshare",
     "domain": "slideshare.net",
-    "urlmappings": [{
-        "urltemplate": "http://slideshare.net/rss/user/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://slideshare.net/rss/user/{username}",
         "schema": "Rss",
-        "contenttype": "Slides",
-        "mediatype": "Rss"
+        "contentType": "Slides",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://slideshare.net/{username}",
+        "urlTemplate": "http://slideshare.net/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://slideshare.net/{username}/presentations",
+        "urlTemplate": "http://slideshare.net/{username}/presentations",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://slideshare.net/{username}/followers/{pagenumber}",
+        "urlTemplate": "http://slideshare.net/{username}/followers/{pagenumber}",
         "schema": "hCard",
-        "contenttype": "Friends",
-        "mediatype": "Html"
+        "contentType": "Friends",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Smugmug",
     "domain": "smugmug.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.smugmug.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.smugmug.com/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.smugmug.com/hack/feed.mg?Type=nickname&Data={username}&format=atom10",
+        "urlTemplate": "http://{username}.smugmug.com/hack/feed.mg?Type=nickname&Data={username}&format=atom10",
         "schema": "Atom",
-        "contenttype": "Photos",
-        "mediatype": "Atom"
+        "contentType": "Photos",
+        "mediaType": "Atom"
     }],
     "www": true
 },{
     "name": "Soup.io",
     "domain": "soup.io",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.soup.io/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.soup.io/",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.soup.io/",
+        "urlTemplate": "http://{username}.soup.io/",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.soup.io/rss",
+        "urlTemplate": "http://{username}.soup.io/rss",
         "schema": "Rss",
-        "contenttype": "Lifestream",
-        "mediatype": "Rss"
+        "contentType": "Lifestream",
+        "mediaType": "Rss"
     }],
     "www": false
 },{
     "name": "Spotify",
     "domain": "open.spotify.com",
-    "urlmappings": [{
-        "urltemplate": "http://open.spotify.com/user/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://open.spotify.com/user/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": false
 }
@@ -832,21 +832,21 @@
 ,{
     "name": "Stackoverflow",
     "domain": "stackoverflow.com",
-    "urlmappings": [{
-        "urltemplate": "http://stackoverflow.com/users/{userid}/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://stackoverflow.com/users/{userid}/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://stackoverflow.com/users/{userid}/{username}",
+        "urlTemplate": "http://stackoverflow.com/users/{userid}/{username}",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://stackoverflow.com/feeds/user/{userid}",
+        "urlTemplate": "http://stackoverflow.com/feeds/user/{userid}",
         "schema": "Rss",
-        "contenttype": "Activity",
-        "mediatype": "Rss"
+        "contentType": "Activity",
+        "mediaType": "Rss"
     }],
     "www": true
 }
@@ -854,21 +854,21 @@
 ,{
     "name": "Stumbleupon",
     "domain": "stumbleupon.com",
-    "urlmappings": [{
-        "urltemplate": "http://stumbleupon.com/stumbler/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://stumbleupon.com/stumbler/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://stumbleupon.com/rss/stumbler/{username}/likes",
+        "urlTemplate": "http://stumbleupon.com/rss/stumbler/{username}/likes",
         "schema": "Rss",
-        "contenttype": "Bookmarks",
-        "mediatype": "Rss"
+        "contentType": "Bookmarks",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://stumbleupon.com/rss/stumbler/{username}/comments",
+        "urlTemplate": "http://stumbleupon.com/rss/stumbler/{username}/comments",
         "schema": "Rss",
-        "contenttype": "Activity",
-        "mediatype": "Rss"
+        "contentType": "Activity",
+        "mediaType": "Rss"
     }],
     "www": true
 }
@@ -876,196 +876,196 @@
 ,{
     "name": "Technorati",
     "domain": "technorati.com",
-    "urlmappings": [{
-        "urltemplate": "http://technorati.com/people/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://technorati.com/people/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Threadless",
     "domain": "threadless.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.threadless.com/profile/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.threadless.com/profile/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Times People",
     "domain": "timespeople.nytimes.com",
-    "urlmappings": [{
-        "urltemplate": "http://timespeople.nytimes.com/view/user/{userid}",
+    "urlMappings": [{
+        "urlTemplate": "http://timespeople.nytimes.com/view/user/{userid}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://timespeople.nytimes.com/view/user/{userid}/activities.html",
+        "urlTemplate": "http://timespeople.nytimes.com/view/user/{userid}/activities.html",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://timespeople.nytimes.com/view/user/{userid}/rss.xml",
+        "urlTemplate": "http://timespeople.nytimes.com/view/user/{userid}/rss.xml",
         "schema": "Rss",
-        "contenttype": "Activity",
-        "mediatype": "Rss"
+        "contentType": "Activity",
+        "mediaType": "Rss"
     }],
     "www": true
 },{
     "name": "Tumblr",
     "domain": "tumblr.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.tumblr.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.tumblr.com/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.tumblr.com/rss",
+        "urlTemplate": "http://{username}.tumblr.com/rss",
         "schema": "Rss",
-        "contenttype": "Lifestream",
-        "mediatype": "Rss"
+        "contentType": "Lifestream",
+        "mediaType": "Rss"
     }],
     "www": true
 },{
     "name": "Twitpic",
     "domain": "twitpic.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.twitpic.com/photos/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.twitpic.com/photos/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://twitpic.com/photos/{username}/feed.rss",
+        "urlTemplate": "http://twitpic.com/photos/{username}/feed.rss",
         "schema": "Rss",
-        "contenttype": "Photos",
-        "mediatype": "Rss"
+        "contentType": "Photos",
+        "mediaType": "Rss"
     }],
     "www": true
 },{
     "name": "Twitter",
     "domain": "twitter.com",
-    "urlmappings": [{
-        "urltemplate": "http://twitter.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://twitter.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://twitter.com/{username}",
+        "urlTemplate": "http://twitter.com/{username}",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Upcoming",
     "domain": "upcoming.yahoo.com",
-    "urlmappings": [{
-        "urltemplate": "http://upcoming.yahoo.com/user/{userid}/",
+    "urlMappings": [{
+        "urlTemplate": "http://upcoming.yahoo.com/user/{userid}/",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Viddler",
     "domain": "viddler.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.viddler.com/explore/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.viddler.com/explore/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Vimeo",
     "domain": "vimeo.com",
-    "urlmappings": [{
-        "urltemplate": "http://vimeo.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://vimeo.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://vimeo.com/{username}/contacts/sort:newest/page:{pagenumber}",
+        "urlTemplate": "http://vimeo.com/{username}/contacts/sort:newest/page:{pagenumber}",
         "schema": "None",
-        "contenttype": "Friends",
-        "mediatype": "Html"
+        "contentType": "Friends",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://vimeo.com/{username}/videos/rss",
+        "urlTemplate": "http://vimeo.com/{username}/videos/rss",
         "schema": "Atom",
-        "contenttype": "Video",
-        "mediatype": "Atom"
+        "contentType": "Video",
+        "mediaType": "Atom"
     }],
     "www": true
 },{
     "name": "Windows Live",
     "domain": "spaces.live.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.spaces.live.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.spaces.live.com/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Wordpress",
     "domain": "wordpress.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.wordpress.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.wordpress.com/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.wordpress.com/feed/atom/",
+        "urlTemplate": "http://{username}.wordpress.com/feed/atom/",
         "schema": "Atom",
-        "contenttype": "Lifestream",
-        "mediatype": "Atom"
+        "contentType": "Lifestream",
+        "mediaType": "Atom"
     }],
     "www": true
 },{
     "name": "Xing",
     "domain": "xing.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.xing.com/profile/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://www.xing.com/profile/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.xing.com/profile/{username}",
+        "urlTemplate": "http://www.xing.com/profile/{username}",
         "schema": "hResume",
-        "contenttype": "Resume",
-        "mediatype": "Html"
+        "contentType": "Resume",
+        "mediaType": "Html"
     }],
     "www": true
 },{
     "name": "Youtube",
     "domain": "youtube.com",
-    "urlmappings": [{
-        "urltemplate": "http://gdata.youtube.com/feeds/base/users/{username}/uploads?alt=rss&v=2",
+    "urlMappings": [{
+        "urlTemplate": "http://gdata.youtube.com/feeds/base/users/{username}/uploads?alt=rss&v=2",
         "schema": "Atom",
-        "contenttype": "Video",
-        "mediatype": "Atom"
+        "contentType": "Video",
+        "mediaType": "Atom"
     }, {
-        "urltemplate": "http://youtube.com/rss/user/{username}/videos.rss",
+        "urlTemplate": "http://youtube.com/rss/user/{username}/videos.rss",
         "schema": "Rss",
-        "contenttype": "Video",
-        "mediatype": "Rss"
+        "contentType": "Video",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://youtube.com/user/{username}",
+        "urlTemplate": "http://youtube.com/user/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.youtube.com/profile?user={username}",
+        "urlTemplate": "http://www.youtube.com/profile?user={username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://www.youtube.com/user/{username}",
+        "urlTemplate": "http://www.youtube.com/user/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }]

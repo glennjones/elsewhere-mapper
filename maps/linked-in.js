@@ -1,26 +1,26 @@
 {
     "name": "Linked-in",
     "domain": "linkedin.com",
-    "urlmappings": [{
-        "urltemplate": "http://linkedin.com/in/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://linkedin.com/in/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://linkedin.com/in/{username}",
+        "urlTemplate": "http://linkedin.com/in/{username}",
         "schema": "hResume",
-        "contenttype": "Resume",
-        "mediatype": "Html"
+        "contentType": "Resume",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://linkedin.com/pub/{username}",
+        "urlTemplate": "http://linkedin.com/pub/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://linkedin.com/pub/{username}",
+        "urlTemplate": "http://linkedin.com/pub/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }],
     "www": true
 }

@@ -1,26 +1,26 @@
 {
     "name": "Slideshare",
     "domain": "slideshare.net",
-    "urlmappings": [{
-        "urltemplate": "http://slideshare.net/rss/user/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://slideshare.net/rss/user/{username}",
         "schema": "Rss",
-        "contenttype": "Slides",
-        "mediatype": "Rss"
+        "contentType": "Slides",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://slideshare.net/{username}",
+        "urlTemplate": "http://slideshare.net/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://slideshare.net/{username}/presentations",
+        "urlTemplate": "http://slideshare.net/{username}/presentations",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://slideshare.net/{username}/followers/{pagenumber}",
+        "urlTemplate": "http://slideshare.net/{username}/followers/{pagenumber}",
         "schema": "hCard",
-        "contenttype": "Friends",
-        "mediatype": "Html"
+        "contentType": "Friends",
+        "mediaType": "Html"
     }],
     "www": true
 }

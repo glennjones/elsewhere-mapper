@@ -1,11 +1,11 @@
 {
     "name": "Technorati",
     "domain": "technorati.com",
-    "urlmappings": [{
-        "urltemplate": "http://technorati.com/people/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://technorati.com/people/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

@@ -1,16 +1,16 @@
 {
     "name": "Twitter",
     "domain": "twitter.com",
-    "urlmappings": [{
-        "urltemplate": "http://twitter.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://twitter.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://twitter.com/{username}",
+        "urlTemplate": "http://twitter.com/{username}",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }],
     "www": true
 }

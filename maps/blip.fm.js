@@ -1,16 +1,16 @@
 {
     "name": "Blip.fm",
     "domain": "blip.fm",
-    "urlmappings": [{
-        "urltemplate": "http://blip.fm/{username}/",
+    "urlMappings": [{
+        "urlTemplate": "http://blip.fm/{username}/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://blip.fm/feed/{username}",
+        "urlTemplate": "http://blip.fm/feed/{username}",
         "schema": "Atom",
-        "contenttype": "Audio",
-        "mediatype": "Atom"
+        "contentType": "Audio",
+        "mediaType": "Atom"
     }],
     "www": true
 }

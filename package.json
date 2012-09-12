@@ -1,12 +1,12 @@
 {
   "author": "Glenn Jones",
-  "name": "node-socialgraph-mapper",
-  "description": "Enable the discovery the profiles and identities across the web",
+  "name": "elsewhere-mapper",
+  "description": "Social media profile endpoint mapper",
   "version": "0.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/glennjones/node-socialgraph-mapper.git"
+    "url": "git://github.com/glennjones/elsewhere-mapper"
   },
   "main": "index",
   "dependencies": {

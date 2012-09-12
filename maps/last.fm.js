@@ -1,31 +1,31 @@
 {
     "name": "Last.fm",
     "domain": "last.fm",
-    "urlmappings": [{
-        "urltemplate": "http://last.fm/user/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://last.fm/user/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://last.fm/user/{username}/friends?page={pagenumber}",
+        "urlTemplate": "http://last.fm/user/{username}/friends?page={pagenumber}",
         "schema": "hCard",
-        "contenttype": "Friends",
-        "mediatype": "Html"
+        "contentType": "Friends",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://last.fm/user/{username}/events",
+        "urlTemplate": "http://last.fm/user/{username}/events",
         "schema": "hCalendar",
-        "contenttype": "Events",
-        "mediatype": "Html"
+        "contentType": "Events",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://ws.audioscrobbler.com/2.0/user/{username}/recenttracks.rss",
+        "urlTemplate": "http://ws.audioscrobbler.com/2.0/user/{username}/recenttracks.rss",
         "schema": "Rss",
-        "contenttype": "Activity",
-        "mediatype": "Rss"
+        "contentType": "Activity",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://ws.audioscrobbler.com/2.0/user/{username}/events.rss",
+        "urlTemplate": "http://ws.audioscrobbler.com/2.0/user/{username}/events.rss",
         "schema": "Rss",
-        "contenttype": "Events",
-        "mediatype": "Rss"
+        "contentType": "Events",
+        "mediaType": "Rss"
     }],
     "www": true
 }

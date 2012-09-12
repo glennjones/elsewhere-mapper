@@ -1,61 +1,61 @@
 {
     "name": "Delicious",
     "domain": "delicious.com",
-    "urlmappings": [{
-        "urltemplate": "http://delicious.com/{username}/tags",
+    "urlMappings": [{
+        "urlTemplate": "http://delicious.com/{username}/tags",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://delicious.com/v2/rss/{username}",
+        "urlTemplate": "http://delicious.com/v2/rss/{username}",
         "schema": "Rss",
-        "contenttype": "Bookmarks",
-        "mediatype": "Rss"
+        "contentType": "Bookmarks",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://delicious.com/v1/rss/{username}",
+        "urlTemplate": "http://delicious.com/v1/rss/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Rss"
+        "contentType": "None",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://delicious.com/rss/{username}",
+        "urlTemplate": "http://delicious.com/rss/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Rss"
+        "contentType": "None",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://delicious.com/{username}",
+        "urlTemplate": "http://delicious.com/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }, {
     "name": "Delicious",
     "domain": "del.icio.us",
-    "urlmappings": [{
-        "urltemplate": "http://del.icio.us/{username}/tags",
+    "urlMappings": [{
+        "urlTemplate": "http://del.icio.us/{username}/tags",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://del.icio.us/v2/rss/{username}",
+        "urlTemplate": "http://del.icio.us/v2/rss/{username}",
         "schema": "Rss",
-        "contenttype": "Bookmarks",
-        "mediatype": "Rss"
+        "contentType": "Bookmarks",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://del.icio.us/v1/rss/{username}",
+        "urlTemplate": "http://del.icio.us/v1/rss/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Rss"
+        "contentType": "None",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://del.icio.us/rss/{username}",
+        "urlTemplate": "http://del.icio.us/rss/{username}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Rss"
+        "contentType": "None",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://del.icio.us/{username}",
+        "urlTemplate": "http://del.icio.us/{username}",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

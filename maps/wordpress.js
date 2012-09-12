@@ -1,16 +1,16 @@
 {
     "name": "Wordpress",
     "domain": "wordpress.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.wordpress.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.wordpress.com/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.wordpress.com/feed/atom/",
+        "urlTemplate": "http://{username}.wordpress.com/feed/atom/",
         "schema": "Atom",
-        "contenttype": "Lifestream",
-        "mediatype": "Atom"
+        "contentType": "Lifestream",
+        "mediaType": "Atom"
     }],
     "www": true
 }

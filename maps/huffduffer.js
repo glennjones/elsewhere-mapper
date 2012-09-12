@@ -1,26 +1,26 @@
 {
     "name": "Huffduffer",
     "domain": "huffduffer.com",
-    "urlmappings": [{
-        "urltemplate": "http://huffduffer.com/{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://huffduffer.com/{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://huffduffer.com/{username}/rss",
+        "urlTemplate": "http://huffduffer.com/{username}/rss",
         "schema": "Rss",
-        "contenttype": "Audio",
-        "mediatype": "Rss"
+        "contentType": "Audio",
+        "mediaType": "Rss"
     }, {
-        "urltemplate": "http://huffduffer.com/{username}",
+        "urlTemplate": "http://huffduffer.com/{username}",
         "schema": "hAtom",
-        "contenttype": "Audio",
-        "mediatype": "Html"
+        "contentType": "Audio",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://huffduffer.com/{username}",
+        "urlTemplate": "http://huffduffer.com/{username}",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }],
     "www": true
 }

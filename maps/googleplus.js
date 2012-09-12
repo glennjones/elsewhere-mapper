@@ -1,41 +1,41 @@
  {
     "name": "Google Plus",
     "domain": "plus.google.com",
-    "urlmappings": [{
-        "urltemplate": "https://plus.google.com/{userid}/posts",
+    "urlMappings": [{
+        "urlTemplate": "https://plus.google.com/{userid}/posts",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "https://plus.google.com/{userid}/posts",
+        "urlTemplate": "https://plus.google.com/{userid}/posts",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "https://plus.google.com/{userid}",
+        "urlTemplate": "https://plus.google.com/{userid}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://plus.google.com/u/0/{userid}",
+        "urlTemplate": "http://plus.google.com/u/0/{userid}",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://plus.google.com/u/0/{userid}/posts",
+        "urlTemplate": "http://plus.google.com/u/0/{userid}/posts",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://plus.google.com/u/0/{userid}/buzz",
+        "urlTemplate": "http://plus.google.com/u/0/{userid}/buzz",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://plus.google.com/u/0/{userid}/about",
+        "urlTemplate": "http://plus.google.com/u/0/{userid}/about",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }],
     "www": false
  }

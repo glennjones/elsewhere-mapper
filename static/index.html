@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Microformats Shiv Node.js Parser</title>
+    <title>elsewhere-mapper</title>
     <link rel="shortcut icon" href="http://identengine.com//images/logo16.png" />
 
 
@@ -63,6 +63,11 @@
         font-weight: normal;
       }
 
+      h2{
+        margin-top: 2em;
+        margin-bottom: 0;
+      }
+
       input[type="text"]{
         width: 30em;
       }
@@ -83,7 +88,7 @@
       }
 
       .notes {
-        margin: 2em 0 1em 0;
+        margin: 1em 0 1em 0;
       }
 
       footer{
@@ -101,7 +106,9 @@
 
   </head>
   <body>
-    <h1>Social Graph Node Mapper</h1>
+    <h1>elsewhere-mapper</h1>
+
+    <h2>API example - List of Urls</h2>
     <p class='notes'>Type in the address of a social media site profiles belonging to an individual.</p>
 
 
@@ -127,8 +134,237 @@ http://www.slideshare.net/glennjones/presentations
       <input type="submit" value="Parse"/>
      </form>
 
+
+    <h2>API example - JSON</h2>
+    <p class='notes'>Paste in the output of the eleswhere node.js module.</p>
+
+    <form method="get" action=".">
+      <p><label for="json">json</label>
+        <textarea name="json"/>
+{
+    "results": [{
+        "url": "http://twitter.com/glennjones",
+        "title": "Glenn Jones (glennjones) on Twitter",
+        "favicon": "http://twitter.com/favicons/favicon.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": ["http://glennjones.net/"]
+        },
+        "inboundCount": {
+            "verified": 1,
+            "unverified": 2
+        },
+        "verified": false
+    }, {
+        "url": "http://www.flickr.com/photos/glennjonesnet/",
+        "title": "Flickr: glennjonesnet's Photostream",
+        "favicon": "http://l.yimg.com/g/favicon.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": ["http://www.flickr.com/people/glennjonesnet/"]
+        },
+        "inboundCount": {
+            "verified": 1,
+            "unverified": 2
+        },
+        "verified": false
+    }, {
+        "url": "http://delicious.com/glennjonesnet",
+        "title": "Delicious - Discover Yourself!",
+        "favicon": "http://delicious.com/favicon.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": []
+        },
+        "inboundCount": {
+            "verified": 1,
+            "unverified": 2
+        },
+        "verified": false
+    }, {
+        "url": "http://www.linkedin.com/in/glennjones",
+        "title": "Glenn Jones | LinkedIn",
+        "favicon": "http://s3.licdn.com/scds/common/u/img/favicon_v3.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": []
+        },
+        "inboundCount": {
+            "verified": 1,
+            "unverified": 2
+        },
+        "verified": false
+    }, {
+        "url": "http://picasaweb.google.com/glennjonesnet",
+        "title": "Picasa Web Albums - Glenn Jones",
+        "favicon": "http://picasaweb.google.com/favicon.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": ["http://profiles.google.com/105161464208920272734"]
+        },
+        "inboundCount": {
+            "verified": 1,
+            "unverified": 2
+        },
+        "verified": false
+    }, {
+        "url": "http://upcoming.yahoo.com/user/62673/",
+        "title": "",
+        "favicon": "http://upcoming.yahoo.com/favicon.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": []
+        },
+        "inboundCount": {
+            "verified": 1,
+            "unverified": 2
+        },
+        "verified": false
+    }, {
+        "url": "http://www.last.fm/user/glennjones/",
+        "title": "glennjones’s Music Profile – Users at Last.fm",
+        "favicon": "http://cdn.last.fm/flatness/favicon.2.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": ["http://www.glennjones.net"]
+        },
+        "inboundCount": {
+            "verified": 1,
+            "unverified": 2
+        },
+        "verified": false
+    }, {
+        "url": "http://huffduffer.com/glennjones",
+        "title": "glennjones on Huffduffer",
+        "favicon": "http://huffduffer.com/favicon.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": ["http://www.glennjones.net/"]
+        },
+        "inboundCount": {
+            "verified": 1,
+            "unverified": 2
+        },
+        "verified": false
+    }, {
+        "url": "http://identi.ca/glennjones",
+        "title": "Glenn Jones (glennjones) - Identi.ca",
+        "favicon": "http://identi.ca/favicon.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": ["http://www.glennjones.net/"]
+        },
+        "inboundCount": {
+            "verified": 1,
+            "unverified": 2
+        },
+        "verified": false
+    }, {
+        "url": "http://www.google.com/reader/shared/glennjonesnet",
+        "title": "Google Reader - glennjones' shared items",
+        "favicon": "http://www.google.com/favicon.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": []
+        },
+        "inboundCount": {
+            "verified": 1,
+            "unverified": 2
+        },
+        "verified": false
+    }, {
+        "url": "http://www.youtube.com/channel/UCLBkAp8Q5PP_zzBjrRjb_PA",
+        "title": "Glenn Jones - YouTube",
+        "favicon": "http://s.ytimg.com/yt/favicon-vfldLzJxy.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": ["https://plus.google.com/105161464208920272734"]
+        },
+        "inboundCount": {
+            "verified": 1,
+            "unverified": 2
+        },
+        "verified": false
+    }, {
+        "url": "http://glennjones.net/",
+        "title": "Database Error",
+        "favicon": "http://glennjones.net/favicon.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": []
+        },
+        "inboundCount": {
+            "verified": 0,
+            "unverified": 5
+        },
+        "verified": false
+    }, {
+        "url": "http://profiles.google.com/105161464208920272734",
+        "title": "Glenn Jones - Google+",
+        "favicon": "http://ssl.gstatic.com/s2/oz/images/faviconr2.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": ["http://twitter.com/glennjones", "http://www.flickr.com/photos/glennjonesnet/", "http://delicious.com/glennjonesnet", "http://www.linkedin.com/in/glennjones", "http://picasaweb.google.com/glennjonesnet", "http://upcoming.yahoo.com/user/62673/", "http://www.last.fm/user/glennjones/", "http://huffduffer.com/glennjones", "http://identi.ca/glennjones", "http://www.google.com/reader/shared/glennjonesnet", "http://www.youtube.com/channel/UCLBkAp8Q5PP_zzBjrRjb_PA"]
+        },
+        "inboundCount": {
+            "verified": 0,
+            "unverified": 1
+        },
+        "verified": false
+    }, {
+        "url": "https://plus.google.com/105161464208920272734",
+        "title": "Glenn Jones - Google+",
+        "favicon": "https://ssl.gstatic.com/s2/oz/images/faviconr2.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": ["http://twitter.com/glennjones", "http://www.flickr.com/photos/glennjonesnet/", "http://delicious.com/glennjonesnet", "http://www.linkedin.com/in/glennjones", "http://picasaweb.google.com/glennjonesnet", "http://upcoming.yahoo.com/user/62673/", "http://www.last.fm/user/glennjones/", "http://huffduffer.com/glennjones", "http://identi.ca/glennjones", "http://www.google.com/reader/shared/glennjonesnet", "http://www.youtube.com/channel/UCLBkAp8Q5PP_zzBjrRjb_PA"]
+        },
+        "inboundCount": {
+            "verified": 0,
+            "unverified": 1
+        },
+        "verified": false
+    }, {
+        "url": "http://www.flickr.com/people/glennjonesnet/",
+        "title": "Flickr: glennjonesnet",
+        "favicon": "http://l.yimg.com/g/favicon.ico",
+        "outboundLinks": {
+            "verified": [],
+            "unverified": ["http://www.flickr.com/people/glennjonesnet/contacts/", "http://www.glennjones.net"]
+        },
+        "inboundCount": {
+            "verified": 0,
+            "unverified": 0
+        },
+        "verified": false
+    }],
+    "query": "https://plus.google.com/u/0/105161464208920272734/posts",
+    "created": "2012-09-12T08:36:02.888Z",
+    "crawled": 17,
+    "verified": 1
+}
+        </textarea>
+      </p>
+
+      <p><label for="callback">callback</label>
+        <input type="text" name="callback"/>
+      </p>
+
+
+      <input type="submit" value="Parse"/>
+     </form>
+
+    <h2>Currently support sites</h2>
+    <p >You can view a list of the currently <a href="/supported-sites/">supported sites</a></p>
+
+    <h2>Run the map data compactor</h2>
+    <p >Each sites has its own map file. This <a href="/compress-maps/">compacting tool</a> build them into a single compress file for use by the module.</p>
+
      <footer class="vcard">
-        <p class="copyright">© Copyright <a rel="me" href="http://www.glennjones.net" class="fn url">Glenn Jones</a> 2012. All Rights Reserved.</p>
+        This project is maintained by <a href="http://glennjones.net">glennjones</a>
+         <p><a href="https://github.com/glennjones/elsewhere-mapper">View the Project on GitHub glennjones/elsewhere-mapper</a></p>
+        <p class="copyright">Ths project is open sourced under MIT licenses. See the license.txt file within the project source.</p>
+
     </footer>
     
   </body>

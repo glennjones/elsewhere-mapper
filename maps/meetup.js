@@ -1,11 +1,11 @@
 {
     "name": "Meetup",
     "domain": "meetup.com",
-    "urlmappings": [{
-        "urltemplate": "http://www.meetup.com/members/{userid}/",
+    "urlMappings": [{
+        "urlTemplate": "http://www.meetup.com/members/{userid}/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

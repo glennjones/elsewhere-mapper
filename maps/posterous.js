@@ -1,21 +1,21 @@
 {
     "name": "Posterous",
     "domain": "posterous.com",
-    "urlmappings": [{
-        "urltemplate": "http://{username}.posterous.com/",
+    "urlMappings": [{
+        "urlTemplate": "http://{username}.posterous.com/",
         "schema": "None",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     },{
-        "urltemplate": "http://{username}.posterous.com/",
+        "urlTemplate": "http://{username}.posterous.com/",
         "schema": "XFN",
-        "contenttype": "Services",
-        "mediatype": "Html"
+        "contentType": "Services",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://{username}.posterous.com/rss.xml",
+        "urlTemplate": "http://{username}.posterous.com/rss.xml",
         "schema": "Rss",
-        "contenttype": "Entries",
-        "mediatype": "Rss"
+        "contentType": "Entries",
+        "mediaType": "Rss"
     }],
     "www": false
 }

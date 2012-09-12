@@ -1,16 +1,16 @@
 {
     "name": "Microformats.org",
     "domain": "microformats.org",
-    "urlmappings": [{
-        "urltemplate": "http://microformats.org/wiki/User:{username}",
+    "urlMappings": [{
+        "urlTemplate": "http://microformats.org/wiki/User:{username}",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://microformats.org/wiki/User:{username}",
+        "urlTemplate": "http://microformats.org/wiki/User:{username}",
         "schema": "hAtom",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }],
     "www": true
 }

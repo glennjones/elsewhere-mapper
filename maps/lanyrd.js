@@ -1,31 +1,31 @@
 {
     "name": "Lanyrd",
     "domain": "lanyrd.com",
-    "urlmappings": [{
-        "urltemplate": "http://lanyrd.com/people/{username}/",
+    "urlMappings": [{
+        "urlTemplate": "http://lanyrd.com/people/{username}/",
         "schema": "None",
-        "contenttype": "None",
-        "mediatype": "Html"
+        "contentType": "None",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://lanyrd.com/profile/{username}/",
+        "urlTemplate": "http://lanyrd.com/profile/{username}/",
         "schema": "hCard",
-        "contenttype": "Profile",
-        "mediatype": "Html"
+        "contentType": "Profile",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://lanyrd.com/profile/{username}/",
+        "urlTemplate": "http://lanyrd.com/profile/{username}/",
         "schema": "rel-tag",
-        "contenttype": "Interests",
-        "mediatype": "Html"
+        "contentType": "Interests",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://lanyrd.com/profile/{username}/future/",
+        "urlTemplate": "http://lanyrd.com/profile/{username}/future/",
         "schema": "hCalendar",
-        "contenttype": "Events",
-        "mediatype": "Html"
+        "contentType": "Events",
+        "mediaType": "Html"
     }, {
-        "urltemplate": "http://lanyrd.com/profile/{username}/past/",
+        "urlTemplate": "http://lanyrd.com/profile/{username}/past/",
         "schema": "hCalendar",
-        "contenttype": "Events",
-        "mediatype": "Html"
+        "contentType": "Events",
+        "mediaType": "Html"
     }],
     "www": true
 }
