@@ -1,7 +1,7 @@
 {
   "author": "Glenn Jones",
   "name": "node-socialgraph-mapper",
-  "description": "A social graph node mapper for node.js",
+  "description": "Enable the discovery the profiles and identities across the web",
   "version": "0.0.1",
   "license": "MIT",
   "repository": {
@@ -16,6 +16,6 @@
     "node": ">= 0.6.5"
   },
   "scripts": {
-    "start": "bin/node-socialgraph-mapper"
+    "start": "bin/elsewhere-mapper"
   }
 }
