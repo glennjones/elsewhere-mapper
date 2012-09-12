@@ -1,24 +1,32 @@
-# node-socialgraph-mapper
+# elsewher-mapper
 
-A social graph node mapper for node.js. 
+The elsewhere-mapper is part of a collection of node.js modules that enable the discovery the profiles and identities people create across the web and bring them together.
 
 
 ## Install
 
-    npm install node-socialgraph-mapper
+    npm install elsewhere-mapper
 
 or
 
-    git clone http://github.com/glennjones/node-socialgraph-mapper.git
-    cd node-socialgraph-mapper
+    git clone http://github.com/glennjones/elsewhere-mapper.git
+    cd elsewhere-mapper
     npm link
 
 
 #### Use
 
+with JSON
+
+    var mapper = require("elsewhere-mapper");
+
+    mapper.parseJSON({}, {}, function(data){
+        // do something with data
+    });
+
 with URLs
 
-    var mapper = require("node-socialgraph-mapper");
+    var mapper = require("elsewhere-mapper");
 
     mapper.parseUrls('http://glennjones.net/about', {}, function(data){
         // do something with data
