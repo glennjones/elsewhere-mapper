@@ -135,6 +135,33 @@ http://www.slideshare.net/glennjones/presentations
      </form>
 
 
+
+          <h2>API example - List of SGNs</h2>
+    <p class='notes'>Type a list of social graph node descriptions ie sgn://github.com/?ident=glennjones.</p>
+
+        <form id="form" method="get" action="api">
+      <p><label for="sgns">sgns</label>
+        <textarea name="sgns"/>
+sgn://twitter.com/?ident=glennjones,
+sgn://del.icio.us/?ident=glennjonesnet,
+sgn://lanyrd.com/?ident=glennjones,
+sgn://github.com/?ident=glennjones,
+sgn://code.google.com/?ident=glennjonesnet,
+sgn://flickr.com/?ident=glennjonesnet,
+sgn://linkedin.com/?ident=glennjones,
+sgn://slideshare.net/?ident=glennjones
+        </textarea>
+      </p>
+
+      <p><label for="callback">callback</label>
+        <input type="text" name="callback"/>
+      </p>
+
+
+      <input type="submit" value="Parse"/>
+     </form>
+
+
     <h2>API example - JSON</h2>
     <p class='notes'>Paste in the output of the eleswhere node.js module.</p>
 
@@ -359,6 +386,10 @@ http://www.slideshare.net/glennjones/presentations
 
     <h2>Run the map data compactor</h2>
     <p >Each sites has its own map file. This <a href="/compress-maps/">compacting tool</a> build them into a single compress file for use by the module.</p>
+
+    <h2>Creating the sprites/css from the icons</h2>
+    <p >Install a copy of glue onto your Mac and in the project folder run <code>$ glue --html --optipng --watch icons sprites</code>.</p>
+
 
      <footer class="vcard">
         This project is maintained by <a href="http://glennjones.net">glennjones</a>

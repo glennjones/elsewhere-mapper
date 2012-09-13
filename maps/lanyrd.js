@@ -13,6 +13,11 @@
         "mediaType": "Html"
     }, {
         "urlTemplate": "http://lanyrd.com/profile/{username}/",
+        "schema": "XFN",
+        "contentType": "Services",
+        "mediaType": "Html"
+    }, {
+        "urlTemplate": "http://lanyrd.com/profile/{username}/",
         "schema": "rel-tag",
         "contentType": "Interests",
         "mediaType": "Html"

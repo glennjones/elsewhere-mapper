@@ -1,6 +1,6 @@
 # elsewhere-mapper
 
-The elsewhere-mapper is part of a collection of node.js modules that enable the discovery the profiles and identities people create across the web and bring them together.
+The elsewhere-mapper is part of a collection of node.js modules that enable the discovery of the profiles and identities an indivdaul create across the web.
 
 
 ## Install
@@ -16,21 +16,30 @@ or
 
 #### Use
 
-with JSON from elsewhere module
-
-    var mapper = require("elsewhere-mapper");
-
-    mapper.parseJSON({}, {}, function(data){
-        // do something with data
-    });
-
 with list of URLs
 
     var mapper = require("elsewhere-mapper");
 
-    mapper.parseUrls('http://glennjones.net/about', {}, function(data){
+    mapper.parseUrls('http://glennjones.net/about', function(data){
         // do something with data
     });
+
+with list of SGNs
+
+    var mapper = require("elsewhere-mapper");
+
+    mapper.parseSgns('sgn://twitter.com/?ident=glennjones', function(data){
+        // do something with data
+    });
+
+with JSON from elsewhere module
+
+    var mapper = require("elsewhere-mapper");
+
+    mapper.parseElsewhereJson({ data object... },  function(data){
+        // do something with data
+    });
+
 
 
 

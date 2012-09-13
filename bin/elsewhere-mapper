@@ -45,6 +45,10 @@ function handler(req, res) {
       mapper.parseUrls(query.urls, function(data){
         writeContent(data, query.callback);
       });
+    }else if(query.sgns){
+      mapper.parseSgns(query.sgns, function(data){
+        writeContent(data, query.callback);
+      });
     }else if(query.json){
       var json = JSON.parse(query.json)
       mapper.parseElsewhereJson(json, function(data){
@@ -55,7 +59,7 @@ function handler(req, res) {
         writeContent(data, query.callback);
       });
     }else{
-      writeContent([], query.callback);
+      writeContent({}, query.callback);
     }
 
     function writeContent(json,callback){

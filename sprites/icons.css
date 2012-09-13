@@ -24,6 +24,7 @@
 .sprite-icons-posterous,
 .sprite-icons-plurk,
 .sprite-icons-plaxo,
+.sprite-icons-plancast,
 .sprite-icons-picasa,
 .sprite-icons-orkut,
 .sprite-icons-newsvine,
@@ -48,6 +49,7 @@
 .sprite-icons-github,
 .sprite-icons-getsatisfaction,
 .sprite-icons-friendfeed,
+.sprite-icons-foursquare,
 .sprite-icons-fotolog,
 .sprite-icons-flickr,
 .sprite-icons-findings,
@@ -61,6 +63,7 @@
 .sprite-icons-claimid,
 .sprite-icons-blogspot,
 .sprite-icons-blogger,
+.sprite-icons-bliptv,
 .sprite-icons-blipfm,
 .sprite-icons-43things,
 .sprite-icons-43places{background-image:url(icons.png);background-repeat:no-repeat}
@@ -90,43 +93,46 @@
 .sprite-icons-posterous{background-position:-16px -352px;width:16px;height:16px;}
 .sprite-icons-plurk{background-position:-16px -368px;width:16px;height:16px;}
 .sprite-icons-plaxo{background-position:-16px -384px;width:16px;height:16px;}
-.sprite-icons-picasa{background-position:-16px -400px;width:16px;height:16px;}
-.sprite-icons-orkut{background-position:-16px -416px;width:16px;height:16px;}
-.sprite-icons-newsvine{background-position:-16px -432px;width:16px;height:16px;}
-.sprite-icons-netvibes{background-position:-16px -448px;width:16px;height:16px;}
-.sprite-icons-myspace{background-position:-16px -464px;width:16px;height:16px;}
-.sprite-icons-myopenid{background-position:-16px -480px;width:16px;height:16px;}
-.sprite-icons-microformatsorg{background-position:-16px -496px;width:16px;height:16px;}
-.sprite-icons-meetup{background-position:-16px -512px;width:16px;height:16px;}
-.sprite-icons-livejournal{background-position:-16px -528px;width:16px;height:16px;}
-.sprite-icons-linkedin{background-position:-16px -544px;width:16px;height:16px;}
-.sprite-icons-lastfm{background-position:-16px -560px;width:16px;height:16px;}
-.sprite-icons-lanyrd{background-position:-16px -576px;width:16px;height:16px;}
-.sprite-icons-krop{background-position:-16px -592px;width:16px;height:16px;}
-.sprite-icons-jpg{background-position:-16px -608px;width:16px;height:16px;}
-.sprite-icons-identica{background-position:-16px -624px;width:16px;height:16px;}
-.sprite-icons-huffduffer{background-position:-16px -640px;width:16px;height:16px;}
-.sprite-icons-hi5{background-position:-16px -656px;width:16px;height:16px;}
-.sprite-icons-gravatar{background-position:-16px -672px;width:16px;height:16px;}
-.sprite-icons-googlereader{background-position:-16px -688px;width:16px;height:16px;}
-.sprite-icons-googleplus{background-position:-16px -704px;width:16px;height:16px;}
-.sprite-icons-googlecode{background-position:-16px -720px;width:16px;height:16px;}
-.sprite-icons-github{background-position:-16px -736px;width:16px;height:16px;}
-.sprite-icons-getsatisfaction{background-position:-16px -752px;width:16px;height:16px;}
-.sprite-icons-friendfeed{background-position:-16px -768px;width:16px;height:16px;}
-.sprite-icons-fotolog{background-position:-16px -784px;width:16px;height:16px;}
-.sprite-icons-flickr{background-position:-16px -800px;width:16px;height:16px;}
-.sprite-icons-findings{background-position:-16px -816px;width:16px;height:16px;}
-.sprite-icons-ffffound{background-position:-16px -832px;width:16px;height:16px;}
-.sprite-icons-facebook{background-position:-16px -848px;width:16px;height:16px;}
-.sprite-icons-dribbble{background-position:-16px -864px;width:16px;height:16px;}
-.sprite-icons-dopplr{background-position:-16px -880px;width:16px;height:16px;}
-.sprite-icons-djangopeople{background-position:-16px -896px;width:16px;height:16px;}
-.sprite-icons-disqus{background-position:-16px -912px;width:16px;height:16px;}
-.sprite-icons-delicious{background-position:-16px -928px;width:16px;height:16px;}
-.sprite-icons-claimid{background-position:-16px -944px;width:16px;height:16px;}
-.sprite-icons-blogspot{background-position:-16px -960px;width:16px;height:16px;}
-.sprite-icons-blogger{background-position:-16px -976px;width:16px;height:16px;}
-.sprite-icons-blipfm{background-position:-16px -992px;width:16px;height:16px;}
-.sprite-icons-43things{background-position:-16px -1008px;width:16px;height:16px;}
-.sprite-icons-43places{background-position:-16px -1024px;width:16px;height:16px;}
+.sprite-icons-plancast{background-position:-16px -400px;width:16px;height:16px;}
+.sprite-icons-picasa{background-position:-16px -416px;width:16px;height:16px;}
+.sprite-icons-orkut{background-position:-16px -432px;width:16px;height:16px;}
+.sprite-icons-newsvine{background-position:-16px -448px;width:16px;height:16px;}
+.sprite-icons-netvibes{background-position:-16px -464px;width:16px;height:16px;}
+.sprite-icons-myspace{background-position:-16px -480px;width:16px;height:16px;}
+.sprite-icons-myopenid{background-position:-16px -496px;width:16px;height:16px;}
+.sprite-icons-microformatsorg{background-position:-16px -512px;width:16px;height:16px;}
+.sprite-icons-meetup{background-position:-16px -528px;width:16px;height:16px;}
+.sprite-icons-livejournal{background-position:-16px -544px;width:16px;height:16px;}
+.sprite-icons-linkedin{background-position:-16px -560px;width:16px;height:16px;}
+.sprite-icons-lastfm{background-position:-16px -576px;width:16px;height:16px;}
+.sprite-icons-lanyrd{background-position:-16px -592px;width:16px;height:16px;}
+.sprite-icons-krop{background-position:-16px -608px;width:16px;height:16px;}
+.sprite-icons-jpg{background-position:-16px -624px;width:16px;height:16px;}
+.sprite-icons-identica{background-position:-16px -640px;width:16px;height:16px;}
+.sprite-icons-huffduffer{background-position:-16px -656px;width:16px;height:16px;}
+.sprite-icons-hi5{background-position:-16px -672px;width:16px;height:16px;}
+.sprite-icons-gravatar{background-position:-16px -688px;width:16px;height:16px;}
+.sprite-icons-googlereader{background-position:-16px -704px;width:16px;height:16px;}
+.sprite-icons-googleplus{background-position:-16px -720px;width:16px;height:16px;}
+.sprite-icons-googlecode{background-position:-16px -736px;width:16px;height:16px;}
+.sprite-icons-github{background-position:-16px -752px;width:16px;height:16px;}
+.sprite-icons-getsatisfaction{background-position:-16px -768px;width:16px;height:16px;}
+.sprite-icons-friendfeed{background-position:-16px -784px;width:16px;height:16px;}
+.sprite-icons-foursquare{background-position:-16px -800px;width:16px;height:16px;}
+.sprite-icons-fotolog{background-position:-16px -816px;width:16px;height:16px;}
+.sprite-icons-flickr{background-position:-16px -832px;width:16px;height:16px;}
+.sprite-icons-findings{background-position:-16px -848px;width:16px;height:16px;}
+.sprite-icons-ffffound{background-position:-16px -864px;width:16px;height:16px;}
+.sprite-icons-facebook{background-position:-16px -880px;width:16px;height:16px;}
+.sprite-icons-dribbble{background-position:-16px -896px;width:16px;height:16px;}
+.sprite-icons-dopplr{background-position:-16px -912px;width:16px;height:16px;}
+.sprite-icons-djangopeople{background-position:-16px -928px;width:16px;height:16px;}
+.sprite-icons-disqus{background-position:-16px -944px;width:16px;height:16px;}
+.sprite-icons-delicious{background-position:-16px -960px;width:16px;height:16px;}
+.sprite-icons-claimid{background-position:-16px -976px;width:16px;height:16px;}
+.sprite-icons-blogspot{background-position:-16px -992px;width:16px;height:16px;}
+.sprite-icons-blogger{background-position:-16px -1008px;width:16px;height:16px;}
+.sprite-icons-bliptv{background-position:-16px -1024px;width:16px;height:16px;}
+.sprite-icons-blipfm{background-position:-16px -1040px;width:16px;height:16px;}
+.sprite-icons-43things{background-position:-16px -1056px;width:16px;height:16px;}
+.sprite-icons-43places{background-position:-16px -1072px;width:16px;height:16px;}

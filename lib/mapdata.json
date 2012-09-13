@@ -39,6 +39,16 @@
     }],
     "www": true
 },{
+    "name": "Blip.tv",
+    "domain": "blip.tv",
+    "urlMappings": [{
+        "urlTemplate": "http://blip.tv/{username}/",
+        "schema": "None",
+        "contentType": "Profile",
+        "mediaType": "Html"
+    }],
+    "www": true
+},{
     "name": "ClaimId",
     "domain": "claimid.com",
     "urlMappings": [{
@@ -267,6 +277,16 @@
     "domain": "fotolog.com",
     "urlMappings": [{
         "urlTemplate": "http://www.fotolog.com/{username}",
+        "schema": "None",
+        "contentType": "Profile",
+        "mediaType": "Html"
+    }],
+    "www": true
+},{
+    "name": "Foursquare",
+    "domain": "foursquare.com",
+    "urlMappings": [{
+        "urlTemplate": "https://foursquare.com/{username}",
         "schema": "None",
         "contentType": "Profile",
         "mediaType": "Html"
@@ -512,6 +532,11 @@
         "mediaType": "Html"
     }, {
         "urlTemplate": "http://lanyrd.com/profile/{username}/",
+        "schema": "XFN",
+        "contentType": "Services",
+        "mediaType": "Html"
+    }, {
+        "urlTemplate": "http://lanyrd.com/profile/{username}/",
         "schema": "rel-tag",
         "contentType": "Interests",
         "mediaType": "Html"
@@ -690,6 +715,21 @@
         "schema": "Rss",
         "contentType": "Images",
         "mediaType": "Rss"
+    }],
+    "www": true
+},{
+    "name": "Plancast",
+    "domain": "plancast.com",
+    "urlMappings": [{
+        "urlTemplate": "http://plancast.com/{username}",
+        "schema": "None",
+        "contentType": "Profile",
+        "mediaType": "Html"
+    }, {
+        "urlTemplate": "http://plancast.com/{username}",
+        "schema": "XFN",
+        "contentType": "Services",
+        "mediaType": "Html"
     }],
     "www": true
 },{
