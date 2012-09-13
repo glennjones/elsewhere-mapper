@@ -41,5 +41,71 @@ with JSON from elsewhere module
     });
 
 
+#### Response 
+
+This will return JSON. This is an example where three urls where given:
+http://github.com/glennjones
+https://github.com/glennjones/elsewhere-mapper
+http://glennjones.net/
+
+{
+    "identities": [{
+        "name": "Github",
+        "domain": "github.com",
+        "matchedUrl": "http://github.com/glennjones",
+        "userName": "glennjones",
+        "sgn": "sgn://github.com/?ident=glennjones",
+        "endPoints": [{
+            "schema": "Atom",
+            "contentType": "Activity",
+            "mediaType": "Atom",
+            "url": "https://github.com/glennjones.atom"
+        }, {
+            "schema": "hCard",
+            "contentType": "Profile",
+            "mediaType": "Html",
+            "url": "https://github.com/glennjones"
+        }, {
+            "schema": "XFN",
+            "contentType": "Services",
+            "mediaType": "Html",
+            "url": "https://github.com/glennjones"
+    }],
+    "domainsNotMapped": [{
+        "url": "http://glennjones.net/"
+    }],
+    "urlsNotParsed": [{
+        "url": "https://github.com/glennjones/elsewhere-mapper"
+    }]
+}
 
 
+#### Querying demo server.
+
+Start the server binary:
+
+    $ bin/elsewhere-mapper
+
+Then visit the server URL
+
+    http://localhost:8881/
+
+#### Using the server API    
+
+The seever API will take either a single value or a comma delimited list of urls/sgns. Alternatively you can also pass it a JSON string from the output of the elsewhere node.js module. Finally it supports a callback querystring item for use with any of the other three data items.
+
+
+    GET http://localhost:8881/?urls=http%3A%2F%2Ftwitter.com%2Fglennjones&callback=myFunction
+
+
+
+
+
+## Support or Contact
+
+Having trouble with elsewhere-mapper? Please raise an issue at: https://github.com/glennjones/elsewhere-mapper/issues
+
+
+## License
+
+The project is open sourced under MIT licenses. See the license.txt file within the project source.
