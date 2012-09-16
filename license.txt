@@ -1,4 +1,4 @@
-MIT License
+MIT License - elsewhere-mapper
 
 Copyright (c) 2009-2012 Glenn Jones
 

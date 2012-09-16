@@ -1,5 +1,5 @@
 {
-  "author": "Glenn Jones",
+  "author": "Glenn Jones <glennjonesnet@gmail.com>",
   "name": "elsewhere-mapper",
   "description": "Social media profile endpoint mapper",
   "version": "0.0.1",
@@ -8,12 +8,20 @@
     "type": "git",
     "url": "git://github.com/glennjones/elsewhere-mapper"
   },
+    "keywords": [
+    "endpoint",
+    "mapping",
+    "social graph",
+    "social media",
+  ],
   "main": "index",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "node-minify": "0.4.x"
   },
+  "optionalDependencies": {},
   "engines": {
-    "node": ">= 0.6.5"
+    "node": ">= 0.8.1"
   },
   "scripts": {
     "start": "bin/elsewhere-mapper"
