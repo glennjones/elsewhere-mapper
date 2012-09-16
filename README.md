@@ -48,36 +48,36 @@ http://github.com/glennjones,
 https://github.com/glennjones/elsewhere-mapper,
 http://glennjones.net
 
-{
-    "identities": [{
-        "name": "Github",
-        "domain": "github.com",
-        "matchedUrl": "http://github.com/glennjones",
-        "userName": "glennjones",
-        "sgn": "sgn://github.com/?ident=glennjones",
-        "endPoints": [{
-            "schema": "Atom",
-            "contentType": "Activity",
-            "mediaType": "Atom",
-            "url": "https://github.com/glennjones.atom"
-        }, {
-            "schema": "hCard",
-            "contentType": "Profile",
-            "mediaType": "Html",
-            "url": "https://github.com/glennjones"
-        }, {
-            "schema": "XFN",
-            "contentType": "Services",
-            "mediaType": "Html",
-            "url": "https://github.com/glennjones"
-    }],
-    "domainsNotMapped": [{
-        "url": "http://glennjones.net/"
-    }],
-    "urlsNotParsed": [{
-        "url": "https://github.com/glennjones/elsewhere-mapper"
-    }]
-}
+    {
+        "identities": [{
+            "name": "Github",
+            "domain": "github.com",
+            "matchedUrl": "http://github.com/glennjones",
+            "userName": "glennjones",
+            "sgn": "sgn://github.com/?ident=glennjones",
+            "endPoints": [{
+                "schema": "Atom",
+                "contentType": "Activity",
+                "mediaType": "Atom",
+                "url": "https://github.com/glennjones.atom"
+            }, {
+                "schema": "hCard",
+                "contentType": "Profile",
+                "mediaType": "Html",
+                "url": "https://github.com/glennjones"
+            }, {
+                "schema": "XFN",
+                "contentType": "Services",
+                "mediaType": "Html",
+                "url": "https://github.com/glennjones"
+        }],
+        "domainsNotMapped": [{
+            "url": "http://glennjones.net/"
+        }],
+        "urlsNotParsed": [{
+            "url": "https://github.com/glennjones/elsewhere-mapper"
+        }]
+    }
 
 
 
@@ -91,27 +91,27 @@ The server API will take either a single value or a comma delimited list of URLs
     GET http://localhost:8881/?urls=http%3A%2F%2Ftwitter.com%2Fglennjones&callback=myFunction
 
 
-#### Adding a new site to elsewhere-mapper
+## Adding a new site to elsewhere-mapper
 
 It is easy to add a new site to the list that elsewhere-mapper maps. Each site has its own mapping file, which contains a simple description in JSON of the site and a group of urltemplates for matching. This is the mapping file for dopplr.com
 
 
-{
-    "name": "Dopplr",
-    "domain": "dopplr.com",
-    "urlMappings": [{
-        "urlTemplate": "http://dopplr.com/traveller/{username}",
-        "schema": "hCard",
-        "contentType": "Profile",
-        "mediaType": "Html"
-    }, {
-        "urlTemplate": "http://dopplr.com/traveller/{username}/public",
-        "schema": "None",
-        "contentType": "None",
-        "mediaType": "Html"
-    }],
-    "www": true
-}
+    {
+        "name": "Dopplr",
+        "domain": "dopplr.com",
+        "urlMappings": [{
+            "urlTemplate": "http://dopplr.com/traveller/{username}",
+            "schema": "hCard",
+            "contentType": "Profile",
+            "mediaType": "Html"
+        }, {
+            "urlTemplate": "http://dopplr.com/traveller/{username}/public",
+            "schema": "None",
+            "contentType": "None",
+            "mediaType": "Html"
+        }],
+        "www": true
+    }
 
 
  First make sure you have the development version of elsewhere-mapper by using the following command 
