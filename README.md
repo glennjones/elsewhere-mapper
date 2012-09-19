@@ -1,6 +1,6 @@
 # elsewhere-mapper
 
-The elsewhere-mapper is a social media profile endpoint mapper, it is part of a collection of node.js modules that enable the discovery of profiles and identities an indivdaul creates across the web.
+The elsewhere-mapper is a social media profile endpoint mapper, it is part of a collection of node.js modules that enable the discovery of profiles and identities an indivdual creates across the web.
 
 
 ## Install
