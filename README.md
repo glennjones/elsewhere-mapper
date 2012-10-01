@@ -70,13 +70,19 @@ http://glennjones.net
                 "contentType": "Services",
                 "mediaType": "Html",
                 "url": "https://github.com/glennjones"
+            },
+            "frequency": 2,
+            "icon16": "http://github.com/favicon.ico"
         }],
         "domainsNotMapped": [{
-            "url": "http://glennjones.net/"
+            "url": "http://glennjones.net/",
+            "frequency": 3
         }],
         "urlsNotParsed": [{
             "url": "https://github.com/glennjones/elsewhere-mapper"
-        }]
+        }],
+        "commonUserName": "glennjones",
+        "highestFrequencySite": "http://glennjones.net/"
     }
 
 
