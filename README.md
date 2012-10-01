@@ -20,7 +20,7 @@ with list of URLs
 
     var mapper = require("elsewhere-mapper");
 
-    mapper.parseUrls('http://glennjones.net/about', function(data){
+    mapper.parseUrls(['http://glennjones.net/about'], function(data){
         // do something with data
     });
 
@@ -28,7 +28,7 @@ with list of SGNs
 
     var mapper = require("elsewhere-mapper");
 
-    mapper.parseSgns('sgn://twitter.com/?ident=glennjones', function(data){
+    mapper.parseSgns(['sgn://twitter.com/?ident=glennjones'], function(data){
         // do something with data
     });
 
