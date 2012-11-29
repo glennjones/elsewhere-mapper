@@ -2,7 +2,7 @@
   "author": "Glenn Jones <glennjonesnet@gmail.com>",
   "name": "elsewhere-mapper",
   "description": "Social media profile endpoint mapper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "repository": {
     "type": "git",
