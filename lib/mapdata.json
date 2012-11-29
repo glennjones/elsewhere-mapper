@@ -24,6 +24,21 @@
     }],
     "www": true
 },{
+    "name": "App.net",
+    "domain": "alpha.app.net",
+    "urlMappings": [{
+        "urlTemplate": "https://alpha.app.net/{username}/",
+        "schema": "None",
+        "contentType": "Profile",
+        "mediaType": "Html"
+    }, {
+        "urlTemplate": "https://alpha-api.app.net/feed/rss/users/{userid}/posts",
+        "schema": "Atom",
+        "contentType": "Status",
+        "mediaType": "Atom"
+    }],
+    "www": false
+},{
     "name": "Blip.fm",
     "domain": "blip.fm",
     "urlMappings": [{
@@ -448,6 +463,16 @@
     }],
     "www": true
 },{
+    "name": "Instagram",
+    "domain": "instagram.com",
+    "urlMappings": [{
+        "urlTemplate": "http://instagram.com/{username}",
+        "schema": "None",
+        "contentType": "Profile",
+        "mediaType": "Html"
+    }],
+    "www": true
+},{
     "name": "JPG",
     "domain": "jpgmag.com",
     "urlMappings": [{
@@ -805,6 +830,21 @@
         "schema": "Atom",
         "contentType": "Photos",
         "mediaType": "Atom"
+    }],
+    "www": true
+},{
+    "name": "Soundcloud",
+    "domain": "soundcloud.com",
+    "urlMappings": [{
+        "urlTemplate": "http://soundcloud.com/{username}",
+        "schema": "hCard",
+        "contentType": "Profile",
+        "mediaType": "Html"
+    }, {
+        "urlTemplate": "http://soundcloud.com/{username}",
+        "schema": "XFN",
+        "contentType": "Services",
+        "mediaType": "Html"
     }],
     "www": true
 },{

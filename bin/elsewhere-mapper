@@ -42,16 +42,25 @@ function handler(req, res) {
 
     
     if(query.urls){
-      mapper.parseUrls(query.urls, function(data){
+      mapper.parseUrls(query.urls, {}, function(err, data){
+        if (err) {
+          data.errors = errors;
+        } 
         writeContent(data, query.callback);
       });
     }else if(query.sgns){
-      mapper.parseSgns(query.sgns, function(data){
+      mapper.parseSgns(query.sgns, {}, function(err, data){
+        if (err) {
+          data.errors = errors;
+        } 
         writeContent(data, query.callback);
       });
     }else if(query.json){
       var json = JSON.parse(query.json)
-      mapper.parseElsewhereJson(json, function(data){
+      mapper.parseElsewhereJson(json, {}, function(err, data){
+        if (err) {
+          data.errors = errors;
+        } 
         writeContent(data, query.callback);
       });
     }else if(query.sites){
