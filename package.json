@@ -17,12 +17,14 @@
   "main": "index",
   "dependencies": {
     "underscore": "1.3.x",
-    "underscore.Deferred": "0.1.x"
+    "underscore.deferred": "0.1.x",
+    "url-expander": "0.0.x"
   },
   "devDependencies": {
-    "node-minify": "0.4.x"
+    "node-minify": "0.4.x",
+    "mocha": "1.10.x",
+    "chai": "1.4.x"
   },
-  "optionalDependencies": {},
   "engines": {
     "node": ">= 0.8.1"
   },
